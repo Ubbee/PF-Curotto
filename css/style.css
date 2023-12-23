@@ -1,0 +1,578 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A1A1A;
+}
+
+.body2 {
+  background-color: #1F2023;
+}
+
+header {
+  display: flex;
+  border-bottom: 1px solid grey;
+  justify-content: space-between;
+}
+header a {
+  padding-left: 30px;
+  margin: 20px;
+}
+header a img {
+  width: 222px;
+}
+header nav {
+  margin: 35px;
+  padding-right: 90px;
+}
+header nav ul {
+  display: flex;
+}
+header nav ul li {
+  padding-left: 15px;
+  list-style-type: none;
+}
+header nav ul li a {
+  font-size: 1.5rem;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.dropdown {
+  display: none;
+}
+.dropdown button img {
+  width: 23px;
+  height: 23px;
+}
+.dropdown .dropdown-menu {
+  background-color: #262626;
+}
+.dropdown .dropdown-menu li a {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 1s;
+}
+.dropdown .dropdown-menu li a:hover {
+  color: yellow;
+  background-color: #262626;
+  margin: 0;
+}
+
+@media screen and (max-width: 1300px) {
+  .dropdown {
+    display: flex;
+  }
+  nav ul li a {
+    display: none;
+  }
+}
+.TituloYBoton {
+  margin: 100px 500px 50px 500px;
+  display: flex;
+}
+.TituloYBoton .tituloYP {
+  text-align: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.TituloYBoton .tituloYP h1 {
+  text-align: center;
+  font-size: 4.7rem;
+  font-weight: bolder;
+}
+.TituloYBoton .tituloYP h1 .vivo {
+  color: yellow;
+}
+.TituloYBoton .tituloYP p {
+  font-size: 2rem;
+}
+
+footer {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: end;
+  background-color: #1A1A1A;
+  padding: 55px;
+  margin-top: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+footer a img {
+  width: 222px;
+}
+footer p {
+  margin-top: 60px;
+  text-align: center;
+  color: #BEBEBE;
+}
+
+.container .tituloYp {
+  margin-top: 150px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.container .tituloYp h1 {
+  font-size: 4.4rem;
+  font-weight: bolder;
+}
+.container .tituloYp p {
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+.p {
+  margin-top: 110px;
+  font-size: 1.6rem;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+.h2Empresa {
+  font-size: 4.4rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 150px;
+  border-top: 1px solid #2E2F36;
+  margin: 110px 190px 70px 190px;
+  color: white;
+}
+
+.footer2 {
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: end;
+  background-color: #11151A;
+  padding: 55px;
+  margin-top: 300px;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer2 a img {
+  width: 222px;
+}
+.footer2 p {
+  margin-top: 60px;
+  text-align: center;
+  color: #BEBEBE;
+}
+
+.promo {
+  background-color: #F4FF80;
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px 5px 0px;
+}
+.promo p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+}
+
+.ModalidadExp {
+  display: flex;
+  margin-top: 199px;
+  align-items: center;
+}
+.ModalidadExp img {
+  width: 70px;
+}
+.ModalidadExp p {
+  margin-top: 15px;
+  margin-left: 7px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  color: white;
+}
+
+.tituloYTexto {
+  margin-top: 50px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.tituloYTexto h1 {
+  font-size: 4rem;
+  font-weight: bolder;
+  margin-bottom: 30px;
+}
+.tituloYTexto ul li {
+  font-size: 1.5rem;
+}
+.tituloYTexto ul #aprovechaYellow {
+  color: #E0F037;
+  font-weight: lighter;
+}
+
+.certifica {
+  margin-top: 100px;
+  margin-bottom: 90px;
+}
+.certifica p {
+  color: #BFBFBF;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 50px;
+}
+.certifica img {
+  width: 122px;
+  margin-left: 15px;
+}
+
+.videoYExp {
+  display: flex;
+  background-color: white;
+  padding-top: 122px;
+  margin-top: 100px;
+}
+.videoYExp video {
+  width: 600px;
+}
+.videoYExp .parrafo {
+  margin: 0px 70px 90px 150px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+.videoYExp .parrafo h2 {
+  font-size: 2.6rem;
+  font-weight: bold;
+}
+
+.whatsapp-logo {
+  position: fixed;
+  bottom: 200px;
+  right: 100px;
+  z-index: 999;
+  transition: 0.4s;
+}
+.whatsapp-logo img {
+  width: 60px;
+  height: auto;
+}
+.whatsapp-logo:hover {
+  transform: scale(1.3) rotate(360deg);
+}
+
+.botones2 {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.5s;
+}
+.botones2 button {
+  margin-right: 15px;
+  background-color: #EAFF6A;
+  padding: 14px;
+  border-radius: 5px;
+}
+.botones2 button a {
+  color: #6E773F;
+  text-decoration: none;
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+.botones2 .conoce a {
+  color: #EAFF6A;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+.botones2 .conoce img {
+  width: 25px;
+  height: 25px;
+}
+.botones2:hover {
+  background-color: #D4E761;
+}
+
+.botones3 {
+  display: flex;
+  justify-content: start;
+  margin-top: 70px;
+}
+.botones3 .botonCursos {
+  margin-right: 15px;
+  background-color: #D1E500;
+  padding: 20px;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+.botones3 .botonCursos a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.botones3 .botonCursos:hover {
+  background-color: #D4E761;
+}
+
+.cartaEntrada {
+  display: flex;
+  justify-content: center;
+}
+.cartaEntrada .accede {
+  border-radius: 9px;
+  display: flex;
+  margin: 60px 20px 30px 20px;
+  border: 1px solid #80854A;
+  box-shadow: 0 0 20px 5px #80854A;
+  max-width: 880px;
+  align-items: center;
+  transition: 1s;
+}
+.cartaEntrada .accede:hover {
+  box-shadow: 0 0 40px 10px #80854A;
+}
+.cartaEntrada .accede .ver {
+  margin: 30px 70px 30px 70px;
+  color: white;
+  display: flex;
+  font-size: 1.3rem;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cartaEntrada .accede .ver a {
+  padding-left: 25px;
+  padding-right: 7px;
+  color: white;
+  text-decoration: none;
+}
+.cartaEntrada .accede .ver img {
+  width: 40px;
+  height: 40px;
+}
+
+.botones {
+  padding-top: 100px;
+  display: flexbox;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.botones button {
+  padding: 35px 55px 35px 55px;
+  border-radius: 10px;
+  background-color: #c9db03;
+  transition: 1s;
+}
+.botones button:hover {
+  background-color: #d1dd4c;
+  transition: 0.5s;
+}
+.botones button a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.botones .conoce {
+  margin-top: 25px;
+}
+.botones .conoce img {
+  width: 36px;
+}
+.botones .conoce a {
+  color: #c9db03;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
+.container .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  column-gap: 35px;
+  margin-top: 300px;
+  row-gap: 75px;
+}
+.container .grid-container .grid-item {
+  border-radius: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .grid-container .uno {
+  background-color: #F4FF80;
+  grid-column: 1/3;
+  grid-row: 1/3;
+  padding: 20px;
+}
+.container .grid-container .uno .img {
+  transform: translateY(85px);
+}
+.container .grid-container .uno .img2 {
+  margin-left: 20px;
+}
+.container .grid-container .uno h2 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.container .grid-container .uno p {
+  font-size: 2.3rem;
+}
+.container .grid-container .dos {
+  background-color: white;
+  grid-row: 1/4;
+  padding: 20px;
+}
+.container .grid-container .dos video {
+  width: 100%;
+}
+.container .grid-container .dos h3 {
+  margin-top: 27px;
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.container .grid-container .dos p {
+  color: rgb(109, 108, 108);
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+.container .grid-container .tres {
+  background-color: white;
+  grid-column: 1/3;
+  padding: 30px;
+}
+.container .grid-container .tres h4 {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+.container .grid-container .tres p {
+  color: rgb(109, 108, 108);
+  font-size: 1.8rem;
+  font-weight: lighter;
+}
+
+.container .empresa {
+  display: flex;
+  margin-top: 170px;
+}
+.container .empresa .imgyp {
+  padding-left: 10px;
+}
+.container .empresa .imgyp img {
+  margin-right: 7px;
+}
+.container .empresa .botones3 {
+  padding: 20px 45px 20px 45px;
+  background-color: #393B43;
+  color: yellow;
+  border-radius: 6px;
+  border: 1px solid #393B43;
+  font-weight: lighter;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.container .empresa .primero {
+  margin-right: 30px;
+  padding: 25px;
+  border-radius: 5px;
+  color: #565759;
+  border: 1px solid #5F6373;
+}
+.container .empresa .primero p {
+  font-size: 1.2rem;
+  color: white;
+}
+.container .empresa .primero .imgyp {
+  padding-left: 10px;
+  display: flex;
+}
+.container .empresa .primero .imgyp h3 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+.container .empresa .primero .pLogos1 {
+  margin-top: 50px;
+  color: #99999A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .empresa .segundo {
+  margin-right: 30px;
+  padding: 25px;
+  border-radius: 5px;
+  color: #565759;
+  border: 1px solid #5F6373;
+}
+.container .empresa .segundo p {
+  font-size: 1.2rem;
+  color: white;
+}
+.container .empresa .segundo .imgyp {
+  padding-left: 10px;
+  display: flex;
+}
+.container .empresa .segundo .imgyp h4 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+.container .empresa .segundo .pLogos2 {
+  margin-top: 150px;
+  color: #99999A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .empresa .tercero {
+  padding: 25px;
+  border-radius: 5px;
+  color: #565759;
+  border: 1px solid #5F6373;
+}
+.container .empresa .tercero p {
+  font-size: 1.2rem;
+  color: white;
+}
+.container .empresa .tercero .imgyp {
+  padding-left: 10px;
+  display: flex;
+}
+.container .empresa .tercero .imgyp h5 {
+  font-size: 2rem;
+  font-weight: bolder;
+  color: white;
+}
+.container .empresa .tercero .pLogos3 {
+  margin-top: 150px;
+  color: #99999A;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container .empresa .list .listItem {
+  display: flex;
+  align-items: center;
+}
+.container .empresa .list .listItem p {
+  font-size: 1rem;
+  color: #99999A;
+  margin-left: 7px;
+}
+
+.cards2 {
+  padding: 0px 40px 20px 40px;
+  border-top: 1px solid #2E2F36;
+}
+
+.video-container {
+  border-top: 1px solid #2E2F36;
+  padding-top: 140px;
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+  margin: 200px;
+}
+
+.imagenes9 {
+  margin-top: 60px;
+}
+
+/*# sourceMappingURL=style.css.map */

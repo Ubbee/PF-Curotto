@@ -1,0 +1,287 @@
+.cartaEntrada {
+    display: flex;
+    justify-content: center;
+
+    .accede {
+        border-radius: 9px;
+        display: flex;
+        margin: 60px 20px 30px 20px;
+        border: 1px solid #80854A;
+        box-shadow: 0 0 20px 5px #80854A;
+        max-width: 880px;
+        align-items: center;
+
+        transition: 1s;
+
+        &:hover {
+            box-shadow: 0 0 40px 10px #80854A;
+        }
+
+        .ver {
+            margin: 30px 70px 30px 70px;
+            color: white;
+            display: flex;
+            font-size: 1.3rem;
+            color: white;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+
+            a {
+                padding-left: 25px;
+                padding-right: 7px;
+                color: white;
+                text-decoration: none;
+            }
+
+            img {
+                width: 40px;
+                height: 40px;
+            }
+        }
+    }
+}
+
+.botones {
+    padding-top: 100px;
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+    button {
+        padding: 35px 55px 35px 55px;
+        border-radius: 10px;
+        background-color: #c9db03;
+        transition: 1s;
+
+        &:hover {
+            background-color: #d1dd4c;
+            transition: 0.5s;
+        }
+
+        a {
+            color: black;
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+    }
+
+    .conoce {
+        margin-top: 25px;
+
+        img {
+            width: 36px;
+        }
+
+        a {
+            color: #c9db03;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+            font-size: 1.3rem;
+        }
+    }
+}
+
+//CARDS CON GRID
+.container {
+    .grid-container {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        grid-template-rows: repeat(3, auto);
+        column-gap: 35px;
+        margin-top: 300px;
+        row-gap: 75px;
+
+        .grid-item {
+            border-radius: 10px;
+            color: black;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .uno {
+            background-color: #F4FF80;
+            grid-column: 1/3;
+            grid-row: 1/3;
+            padding: 20px;
+
+            .img {
+                transform: translateY(85px);
+            }
+
+            .img2 {
+                margin-left: 20px;
+            }
+
+            h2 {
+                font-size: 4rem;
+                font-weight: bolder;
+            }
+
+            p {
+                font-size: 2.3rem;
+            }
+
+        }
+
+        .dos {
+            background-color: white;
+            grid-row: 1/4;
+            padding: 20px;
+
+            video {
+                width: 100%;
+            }
+
+            h3 {
+                margin-top: 27px;
+                font-size: 4rem;
+                font-weight: bolder;
+            }
+
+            p {
+                color: rgb(109, 108, 108);
+                font-size: 1.8rem;
+                font-weight: lighter;
+            }
+        }
+
+        .tres {
+            background-color: white;
+            grid-column: 1/3;
+            padding: 30px;
+
+            h4 {
+                font-size: 4rem;
+                font-weight: bolder;
+            }
+
+            p {
+                color: rgb(109, 108, 108);
+                font-size: 1.8rem;
+                font-weight: lighter;
+            }
+        }
+    }
+}
+
+
+.container {
+    .empresa {
+        display: flex;
+        margin-top: 170px;
+        .imgyp{
+            padding-left: 10px;
+            img{
+                margin-right: 7px;
+            }
+            
+        }
+        .botones3{
+            padding: 20px 45px 20px 45px;
+            background-color: #393B43;
+            color: yellow;
+            border-radius: 6px;
+            border: 1px solid #393B43;
+            font-weight: lighter;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.2rem;
+            margin-top: 100px;
+            margin-bottom: 50px;
+        }
+        .primero {
+            margin-right: 30px;
+            p{
+                font-size: 1.2rem;
+                    color: white;  
+            }
+            padding: 25px;
+            .imgyp{
+                h3{
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    color: white;
+                }
+                padding-left: 10px;
+                display: flex;
+            }
+            border-radius: 5px;
+            color: #565759;
+            border: 1px solid #5F6373;
+            .pLogos1{
+                margin-top: 50px;
+                color: #99999A;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        
+        .segundo {
+            
+            margin-right: 30px;
+            p{
+                font-size: 1.2rem;
+                    color: white;  
+            }
+            padding: 25px;
+            .imgyp{
+                h4{
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    color: white;
+                }
+                padding-left: 10px;
+                display: flex;
+            }
+            border-radius: 5px;
+            color: #565759;
+            border: 1px solid #5F6373;
+            .pLogos2{
+                margin-top: 150px;
+                color: #99999A;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+        }
+        .tercero {
+            p{
+                font-size: 1.2rem;
+                    color: white;  
+            }
+            padding: 25px;
+            .imgyp{
+                h5{
+                    font-size: 2rem;
+                    font-weight: bolder;
+                    color: white;
+                }
+                padding-left: 10px;
+                display: flex;
+            }
+            border-radius: 5px;
+            color: #565759;
+            border: 1px solid #5F6373;
+            .pLogos3{
+                margin-top: 150px;
+                color: #99999A;
+                font-family: Arial, Helvetica, sans-serif;
+        
+            }
+        }
+
+        .list{
+            .listItem{
+                display: flex;
+                align-items: center;
+                p{
+                    font-size: 1rem;
+                    color: #99999A;
+                    margin-left: 7px;
+                }
+            }
+            
+        }
+
+    }
+}
+.cards2{
+    padding: 0px 40px 20px 40px;
+    border-top: 1px solid #2E2F36;
+}
+
