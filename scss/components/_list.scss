@@ -1,0 +1,284 @@
+.h2Info {
+    color: #BFBFBF;
+    font-family: Arial, Helvetica, sans-serif;
+    //border-top: 1px solid #2E2F36;
+    padding-top: 70px;
+
+    h2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        padding-bottom: 55px;
+    }
+
+    .listaD {
+        display: flex;
+
+
+        ul {
+            list-style-type: none;
+
+            li {
+                a{
+                    text-decoration: none;
+                    color: #BFBFBF;
+                }
+                font-size: 1.8rem;
+                padding: 20px 200px 20px 20px;
+                border-bottom: 1px solid #2E2F36;
+
+                p {
+                    font-size: 1.1rem;
+                    color: #989898;
+                    display: none;
+                    
+                }
+
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        .programas {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+
+
+            .semana1 {
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                background-color: #262626;
+
+                .imgP {
+                    width: 80px;
+                    height: 80px;
+                    border-right: 1px solid #1A1A1A;
+                    padding: 10px;
+                }
+
+                .duracion {
+
+                    border-radius: 5px;
+                    padding: 15px;
+                    color: #FFFFFF;
+                    font-size: 1.2rem;
+
+                    p {}
+
+                    .programaImg {
+                        a {
+                            text-decoration: none;
+                            color: #D1E500;
+                            img{
+                                width: 20px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .semana2 {
+                border-radius: 5px;
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                background-color: #262626;
+
+                .imgP {
+                    width: 80px;
+                    height: 80px;
+                    border-right: 1px solid #1A1A1A;
+                    padding: 10px;
+                }
+
+                .duracion {
+
+                    border-radius: 5px;
+                    padding: 15px;
+                    color: #FFFFFF;
+                    font-size: 1.2rem;
+
+                    .programaImg {
+                        a {
+                            text-decoration: none;
+                            color: #D1E500;
+                            img{
+                                width: 20px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
+.h2Info2 {
+    justify-content: center;
+    border-top: 1px solid #333333;
+    color: #BFBFBF;
+    font-family: Arial, Helvetica, sans-serif;
+    //border-top: 1px solid #2E2F36;
+    padding-top: 100px;
+    padding-left: 100px;
+    width: 1200px;
+    transform: translateX(70px);
+
+    h2 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        padding-bottom: 55px;
+    }
+
+    .listaD {
+        display: flex;
+
+
+        ul {
+            list-style-type: none;
+
+            li {
+                a{
+                    text-decoration: none;
+                    color: #BFBFBF;
+                }
+                font-size: 1.8rem;
+                padding: 20px 200px 20px 20px;
+                border-bottom: 1px solid #2E2F36;
+
+                p {
+                    font-size: 1.1rem;
+                    color: #989898;
+                    display: none;
+                    
+                }
+
+                img {
+                    display: none;
+                }
+            }
+        }
+
+        .programas {
+            margin-top: 25px;
+            display: flex;
+            flex-direction: column;
+            margin-left: 50px;
+
+
+            .semana1 {
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                background-color: #262626;
+
+                .imgP {
+                    width: 80px;
+                    height: 80px;
+                    border-right: 1px solid #1A1A1A;
+                    padding: 10px;
+                }
+
+                .duracion {
+
+                    border-radius: 5px;
+                    padding: 15px;
+                    color: #FFFFFF;
+                    font-size: 1.2rem;
+
+                    p {}
+
+                    .programaImg {
+                        a {
+                            text-decoration: none;
+                            color: #D1E500;
+                            img{
+                                width: 20px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .semana2 {
+                border-radius: 5px;
+                margin-top: 15px;
+                display: flex;
+                align-items: center;
+                background-color: #262626;
+
+                .imgP {
+                    width: 80px;
+                    height: 80px;
+                    border-right: 1px solid #1A1A1A;
+                    padding: 10px;
+                }
+
+                .duracion {
+
+                    border-radius: 5px;
+                    padding: 15px;
+                    color: #FFFFFF;
+                    font-size: 1.2rem;
+
+                    .programaImg {
+                        a {
+                            text-decoration: none;
+                            color: #D1E500;
+                            img{
+                                width: 20px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+            .semana3 {
+                border-radius: 5px;
+                margin-top: 15px;
+                display: flex;
+                background-color: #262626;
+                padding: 10px;
+                align-items: center;
+
+                img {
+                    width: 60px;
+                    height: 60px;
+                    border-right: 1px solid #1A1A1A;
+                    padding: 10px;
+                }
+
+                .duracion {
+
+                    border-radius: 5px;
+                    padding: 15px;
+                    color: #FFFFFF;
+                    font-size: 1.2rem;
+
+                    .programaImg {
+                        a {
+                            text-decoration: none;
+                            color: #D1E500;
+                            img{
+                                width: 20px;
+                                margin-left: 5px;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+        }
+    }
+}
