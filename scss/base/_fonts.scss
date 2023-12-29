@@ -442,9 +442,10 @@ header {
         color: white;
         text-align: start;
         margin: 0 5vw 3vh 0; /* Ajustar el margen usando unidades relativas */
-        font-size: 2.5rem; /* Reducir el tamaño del texto */
+        font-size: 4rem; /* Ajustar el tamaño del h1 */
         font-weight: bolder;
-        width: 50%; /* Utilizar ancho relativo */
+        width: 70%; /* Modificar el ancho relativo */
+        margin-right: 10vw; /* Ajustar el margen derecho */
     }
 
     .parte1 {
@@ -452,11 +453,10 @@ header {
 
         ul {
             li {
-                font-size: 1.1rem;
-                margin-top: 1.5vh;
+                font-size: 1.5rem; /* Ajustar el tamaño del texto */
+                margin-top: 2vh; /* Modificar el margen superior */
+                padding-bottom: 5vh; /* Modificar el padding inferior */
             }
-
-            padding-bottom: 3.5vh;
         }
 
         button {
