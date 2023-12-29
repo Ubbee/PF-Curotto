@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -19,21 +20,21 @@ header {
   align-items: center;
 }
 header a {
-  padding-left: 30px;
-  margin: 20px;
+  padding-left: 2.5vw; /* Cambio de px a vw */
+  margin: 2vh;
 }
 header a img {
-  width: 150px;
+  width: 10vw; /* Cambio de px a vw */
 }
 header nav {
-  margin: 35px;
-  padding-right: 90px;
+  margin: 2.5vh;
+  padding-right: 6.5vw; /* Cambio de px a vw */
 }
 header nav ul {
   display: flex;
 }
 header nav ul li {
-  padding-left: 15px;
+  padding-left: 1.5vw; /* Cambio de px a vw */
   list-style-type: none;
 }
 header nav ul li a {
@@ -41,39 +42,42 @@ header nav ul li a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
+  transition: 1s;
 }
-
-.dropdown {
+header nav ul li a:hover {
+  color: yellow;
+}
+header .dropdown {
   display: none;
 }
-.dropdown button img {
-  width: 23px;
-  height: 23px;
+header .dropdown button img {
+  width: 2.3vw; /* Cambio de px a vw */
+  height: 2.3vw; /* Cambio de px a vw */
 }
-.dropdown .dropdown-menu {
+header .dropdown .dropdown-menu {
   background-color: #262626;
 }
-.dropdown .dropdown-menu li a {
+header .dropdown .dropdown-menu li a {
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   transition: 1s;
 }
-.dropdown .dropdown-menu li a:hover {
+header .dropdown .dropdown-menu li a:hover {
   color: yellow;
   background-color: #262626;
   margin: 0;
 }
-
 @media screen and (max-width: 1300px) {
-  .dropdown {
+  header .dropdown {
     display: flex;
   }
-  nav ul li a {
+  header nav ul li a {
     display: none;
   }
 }
+
 .TituloYBoton {
-  margin: 100px 500px 50px 500px;
+  margin: 6vh 8vw 3vh 8vw; /* Cambio de px a vh/vw */
   display: flex;
 }
 .TituloYBoton .tituloYP {
@@ -83,68 +87,34 @@ header nav ul li a {
 }
 .TituloYBoton .tituloYP h1 {
   text-align: center;
-  font-size: 4.7rem;
+  font-size: 4.7vw; /* Cambio de px a vw */
   font-weight: bolder;
 }
 .TituloYBoton .tituloYP h1 .vivo {
   color: yellow;
 }
 .TituloYBoton .tituloYP p {
-  font-size: 2rem;
+  font-size: 2vw; /* Cambio de px a vw */
 }
 
 .footer1 {
-  border-top: 1px solid grey;
+  border-top: 0.1vw solid grey; /* Cambio de px a vw */
   display: flex;
-  justify-content: end;
+  justify-content: flex-end; /* Actualización del justify-content */
   background-color: #1A1A1A;
-  padding: 55px;
-  margin-top: 300px;
+  padding: 3.5vh; /* Cambio de px a vh */
+  margin-top: 20vh; /* Cambio de px a vh */
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; /* Actualización del justify-content */
 }
 .footer1 a img {
-  width: 222px;
+  width: 9vw; /* Cambio de px a vw */
 }
 .footer1 p {
-  margin-top: 60px;
+  margin-top: 4.5vh; /* Cambio de px a vh */
   text-align: center;
   color: #BEBEBE;
-}
-
-.container .tituloYp {
-  margin-top: 150px;
-  color: white;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-.container .tituloYp h1 {
-  font-size: 4.4rem;
-  font-weight: bolder;
-}
-.container .tituloYp p {
-  text-align: center;
-  font-size: 1.7rem;
-}
-
-.p {
-  margin-top: 110px;
-  font-size: 1.6rem;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-  color: white;
-  font-weight: lighter;
-}
-
-.h2Empresa {
-  font-size: 4.4rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: bolder;
-  text-align: center;
-  padding-top: 150px;
-  border-top: 1px solid #2E2F36;
-  margin: 110px 190px 70px 190px;
-  color: white;
+  font-size: 1.6vw; /* Cambio de px a vw */
 }
 
 .footer2 {
@@ -166,11 +136,50 @@ header nav ul li a {
   color: #BEBEBE;
 }
 
+.container .tituloYp {
+  margin-top: 8vh; /* Cambio de px a vh */
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.container .tituloYp h1 {
+  font-size: 4.4vw; /* Cambio de px a vw */
+  font-weight: bolder;
+}
+.container .tituloYp h1 span {
+  color: yellow;
+}
+.container .tituloYp p {
+  text-align: center;
+  font-size: 1.4vw; /* Cambio de px a vw */
+}
+
+.p {
+  margin-top: 6.5vh; /* Cambio de px a vh */
+  font-size: 1.6vw; /* Cambio de px a vw */
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: white;
+  font-weight: lighter;
+}
+
+.h2Empresa {
+  font-size: 3.7vw; /* Cambio de px a vw */
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  text-align: center;
+  padding-top: 10vh; /* Cambio de px a vh */
+  border-top: 0.1vw solid #2E2F36; /* Cambio de px a vw */
+  margin: 6.5vh 0.5vw 0vh 0.5vw; /* Cambio de px a vw/vh */
+  color: white;
+}
+
+/* Resto del código... */
 .promo {
   background-color: #F4FF80;
   display: flex;
   justify-content: center;
-  padding: 15px 0px 0px 0px;
+  padding: 2% 0;
 }
 .promo p {
   font-family: Arial, Helvetica, sans-serif;
@@ -179,7 +188,7 @@ header nav ul li a {
 
 .ModalidadExp {
   display: flex;
-  margin-top: 199px;
+  margin-top: 10%; /* Usar porcentajes para el margen superior */
   align-items: center;
 }
 .ModalidadExp img {
@@ -194,9 +203,9 @@ header nav ul li a {
 }
 
 .ModalidadExp2 {
-  margin-left: 100px;
+  margin-left: 5%; /* Usar porcentajes para el margen izquierdo */
   display: flex;
-  margin-top: 100px;
+  margin-top: 5%; /* Usar porcentajes para el margen superior */
   align-items: center;
 }
 .ModalidadExp2 img {
@@ -211,17 +220,17 @@ header nav ul li a {
 }
 
 .tituloYTexto {
-  margin-top: 50px;
+  margin-top: 3vh;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 .tituloYTexto h1 {
   font-size: 4rem;
   font-weight: bolder;
-  margin-bottom: 30px;
+  margin-bottom: 2vh;
 }
 .tituloYTexto ul li {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 .tituloYTexto ul #aprovechaYellow {
   color: #E0F037;
@@ -229,25 +238,25 @@ header nav ul li a {
 }
 
 .certifica {
-  margin-top: 100px;
-  margin-bottom: 90px;
+  margin-top: 5%; /* Usar porcentajes para el margen superior */
+  margin-bottom: 5%;
 }
 .certifica p {
   color: #BFBFBF;
   font-size: 1.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  margin-bottom: 50px;
+  margin-bottom: 3vh;
 }
 .certifica img {
-  width: 122px;
-  margin-left: 15px;
+  width: 8vw;
+  margin-left: 1vw;
 }
 
 .videoYExp {
   display: flex;
   background-color: white;
-  padding-top: 122px;
-  margin-top: 100px;
+  padding-top: 10vh; /* Usar unidades de viewport height */
+  margin-top: 5%;
 }
 .videoYExp video {
   width: 600px;
@@ -295,27 +304,28 @@ header nav ul li a {
 }
 
 .h44 {
-  padding: 100px 100px 0px 100px;
+  padding: 5vh 5vw; /* Ajustar el padding usando unidades relativas */
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 4.4rem;
+  font-size: 3.5rem; /* Reducir el tamaño del texto */
   color: white;
   border-top: 1px solid #2E2F36;
 }
 
 .CoderBeca {
   display: flex;
-  margin-top: 100px;
+  margin-top: 5vh; /* Ajustar el margen superior */
   background-color: #DAEA3D;
   border-radius: 8px;
-  padding: 40px;
+  padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to top, #DAEA3D, #DAEA3D);
 }
 .CoderBeca .divU {
   color: black;
-  padding: 10px 90px 10px 30px;
+  padding: 2vh 10vw 2vh 3vw; /* Ajustar el padding usando unidades relativas */
+  /* Otros estilos */
 }
 .CoderBeca .divU h5 {
   font-size: 4rem;
@@ -326,12 +336,13 @@ header nav ul li a {
   color: #1A1A1A;
 }
 .CoderBeca .divD {
-  width: 1300px;
-  margin-right: 30px;
+  width: 90%; /* Utilizar ancho relativo */
+  margin-right: 2%; /* Ajustar el margen derecho */
   background-color: #1A1A1A;
   border-radius: 5px;
   color: #BDBDBD;
-  padding: 55px 55px 75px 55px;
+  padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
+  /* Otros estilos */
   transform: translateY(80px);
   box-shadow: 20px 20px 60px 20px rgba(0, 0, 0, 0.3);
 }
@@ -354,29 +365,29 @@ header nav ul li a {
 .packInicialTitulo {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px 70px 70px 70px;
-  padding: 25px;
+  margin: 3vh 3vw; /* Ajustar el margen usando unidades relativas */
+  padding: 2vh 2vw; /* Ajustar el padding usando unidades relativas */
 }
 .packInicialTitulo h1 {
   color: white;
   text-align: start;
-  margin: 0px 200px 30px 0px;
-  font-size: 3.8rem;
+  margin: 0 5vw 3vh 0; /* Ajustar el margen usando unidades relativas */
+  font-size: 2.5rem; /* Reducir el tamaño del texto */
   font-weight: bolder;
-  width: 600px;
+  width: 50%; /* Utilizar ancho relativo */
 }
 .packInicialTitulo .parte1 {
   color: #C3C3C3;
 }
 .packInicialTitulo .parte1 ul {
-  padding-bottom: 35px;
+  padding-bottom: 3.5vh;
 }
 .packInicialTitulo .parte1 ul li {
-  font-size: 1.2rem;
-  margin-top: 15px;
+  font-size: 1.1rem;
+  margin-top: 1.5vh;
 }
 .packInicialTitulo .parte1 button {
-  padding: 15px 20px 15px 20px;
+  padding: 3vh 4vw;
   background-color: #F1F100;
   color: #5D5D12;
   border-radius: 6px;
@@ -391,28 +402,28 @@ header nav ul li a {
   align-items: center;
 }
 .packInicialTitulo .parte1 .imagenes3 img {
-  width: 120px;
-  padding-right: 15px;
+  width: 10vw; /* Ancho relativo */
+  padding-right: 1.5vw; /* Unidades relativas */
 }
 .packInicialTitulo .parte2 {
-  transform: translateX(-120px) translateY(60px);
+  transform: translateX(-7vw) translateY(6vh);
 }
 .packInicialTitulo .parte2 img {
-  width: 420px;
+  width: 35vw; /* Ancho relativo */
 }
 .packInicialTitulo .parte2 .cartaG {
-  width: 550px;
+  width: 45vw; /* Ancho relativo */
   display: flex;
   background-color: #242424;
-  margin-top: 50px;
-  padding: 25px;
+  margin-top: 5vh; /* Unidades relativas */
+  padding: 2.5vh; /* Unidades relativas */
 }
 .packInicialTitulo .parte2 .cartaG .imgYl {
   text-align: center;
 }
 .packInicialTitulo .parte2 .cartaG .imgYl img {
-  width: 110px;
-  padding-bottom: 25px;
+  width: 10vw; /* Ancho relativo */
+  padding-bottom: 2.5vh; /* Unidades relativas */
 }
 .packInicialTitulo .parte2 .cartaG .imgYl a {
   font-family: Arial, Helvetica, sans-serif;
@@ -427,7 +438,7 @@ header nav ul li a {
 }
 
 .impulso {
-  padding: 100px;
+  padding: 10vh; /* Ajustar el padding usando unidades relativas */
   display: flex;
   justify-content: center;
 }
@@ -443,32 +454,32 @@ header nav ul li a {
   font-size: 1.3rem;
 }
 .impulso .impulsaConP {
-  transform: translateY(-30px);
+  transform: translateY(-2.5vh);
 }
 .impulso .impulsaConP img {
-  width: 400px;
-  transform: translateX(50px) translateY(35px);
+  width: 25vw; /* Cambiar a unidades relativas */
+  transform: translateX(3.5vw) translateY(3vh);
 }
 .impulso .impulsaConP div {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #242424;
   color: #CCCCCC;
-  padding: 45px 25px 25px 25px;
-  border-radius: 15px;
-  width: 500px;
+  padding: 5vh 2.5vw 2.5vh 2.5vw; /* Utilizando unidades relativas */
+  border-radius: 3vh;
+  width: 35vw; /* Cambiar a unidades relativas */
 }
 .impulso .impulsaConP div .terminos {
   font-weight: bold;
   color: yellow;
 }
 .impulso .botonesInfo {
-  padding-top: 40px;
+  padding-top: 5vh; /* Utilizando unidades relativas */
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
 }
 .impulso .botonesInfo button {
-  padding: 15px 22px 15px 22px;
+  padding: 2.5vh 3.5vw 2.5vh 3.5vw; /* Utilizando unidades relativas */
   border-radius: 6px;
 }
 .impulso .botonesInfo button p {
@@ -476,9 +487,9 @@ header nav ul li a {
   color: #343417;
 }
 .impulso .botonesInfo .boto2 {
-  margin-left: 35px;
+  margin-left: 3.5vw; /* Cambiar a unidades relativas */
   background-color: #1A1A1A;
-  border: 1px solid #393B43;
+  border: 0.1vw solid #393B43; /* Cambiar a unidades relativas */
 }
 .impulso .botonesInfo .boto2 p {
   color: yellow;
@@ -489,7 +500,7 @@ header nav ul li a {
 
 .whatsapp-logo {
   position: fixed;
-  bottom: 200px;
+  bottom: 80px;
   right: 100px;
   z-index: 999;
   transition: 0.4s;
@@ -508,19 +519,23 @@ header nav ul li a {
   justify-content: center;
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
-  transition: 0.5s;
 }
 .botones2 button {
   margin-right: 15px;
   background-color: #EAFF6A;
   padding: 14px;
   border-radius: 5px;
+  transition: 0.5s;
 }
 .botones2 button a {
   color: #6E773F;
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: lighter;
+}
+.botones2 button:hover {
+  background-color: #D4E761;
+  transform: scale(1.05);
 }
 .botones2 .conoce a {
   color: #EAFF6A;
@@ -532,9 +547,6 @@ header nav ul li a {
 .botones2 .conoce img {
   width: 25px;
   height: 25px;
-}
-.botones2:hover {
-  background-color: #D4E761;
 }
 
 .botones3 {
@@ -696,7 +708,7 @@ header nav ul li a {
 
 .container .empresa {
   display: flex;
-  margin-top: 170px;
+  margin-top: 100px;
 }
 .container .empresa .imgyp {
   padding-left: 10px;
@@ -818,6 +830,28 @@ header nav ul li a {
   margin-top: 60px;
 }
 
+.logoGarantia {
+  animation-name: logoGarantia;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 3s;
+  animation-delay: 0s;
+}
+
+@keyframes logoGarantia {
+  0% {
+    transform: translateY(0); /* Empieza desde su posición original */
+  }
+  25% {
+    transform: translateY(20px); /* Se mueve 20px hacia arriba */
+  }
+  75% {
+    transform: translateY(-10px); /* Se mueve 20px hacia abajo */
+  }
+  100% {
+    transform: translateY(0); /* Vuelve a la posición original */
+  }
+}
 .h2Info {
   color: #BFBFBF;
   font-family: Arial, Helvetica, sans-serif;
@@ -916,15 +950,16 @@ header nav ul li a {
   border-top: 1px solid #333333;
   color: #BFBFBF;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 100px;
-  padding-left: 100px;
-  width: 1200px;
-  transform: translateX(70px);
+  padding-top: 10vw; /* Usar unidades relativas */
+  padding-left: 5vw; /* Usar unidades relativas */
+  width: 90vw; /* Usar unidades relativas */
+  margin: 0 auto; /* Centrar horizontalmente */
+  transform: translateX(2vw); /* Usar unidades relativas */
 }
 .h2Info2 h2 {
   font-size: 3.5rem;
   font-weight: bold;
-  padding-bottom: 55px;
+  padding-bottom: 3vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD {
   display: flex;
@@ -933,8 +968,8 @@ header nav ul li a {
   list-style-type: none;
 }
 .h2Info2 .listaD ul li {
-  font-size: 1.8rem;
-  padding: 20px 200px 20px 20px;
+  font-size: 2vw; /* Usar unidades relativas */
+  padding: 2vw 5vw 2vw 1vw; /* Usar unidades relativas */
   border-bottom: 1px solid #2E2F36;
 }
 .h2Info2 .listaD ul li a {
@@ -942,7 +977,7 @@ header nav ul li a {
   color: #BFBFBF;
 }
 .h2Info2 .listaD ul li p {
-  font-size: 1.1rem;
+  font-size: 1.2vw; /* Usar unidades relativas */
   color: #989898;
   display: none;
 }
@@ -950,10 +985,10 @@ header nav ul li a {
   display: none;
 }
 .h2Info2 .listaD .programas {
-  margin-top: 25px;
+  margin-top: 2vw; /* Usar unidades relativas */
   display: flex;
   flex-direction: column;
-  margin-left: 50px;
+  margin-left: 2vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana1 {
   border-radius: 5px;
@@ -961,80 +996,80 @@ header nav ul li a {
   align-items: center;
   background-color: #262626;
 }
-.h2Info2 .listaD .programas .semana1 .imgP {
-  width: 80px;
-  height: 80px;
+.h2Info2 .listaD .programas .semana1 img {
+  width: 10vw; /* Usar unidades relativas */
+  height: 10vw; /* Usar unidades relativas */
   border-right: 1px solid #1A1A1A;
-  padding: 10px;
+  padding: 1vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana1 .duracion {
   border-radius: 5px;
-  padding: 15px;
+  padding: 2vw; /* Usar unidades relativas */
   color: #FFFFFF;
-  font-size: 1.2rem;
+  font-size: 1.2vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana1 .duracion .programaImg a {
   text-decoration: none;
   color: #D1E500;
 }
 .h2Info2 .listaD .programas .semana1 .duracion .programaImg a img {
-  width: 20px;
-  margin-left: 5px;
+  width: 5vw; /* Usar unidades relativas */
+  margin-left: 1vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana2 {
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 2vw; /* Usar unidades relativas */
   display: flex;
   align-items: center;
   background-color: #262626;
 }
-.h2Info2 .listaD .programas .semana2 .imgP {
-  width: 80px;
-  height: 80px;
+.h2Info2 .listaD .programas .semana2 img {
+  width: 10vw; /* Usar unidades relativas */
+  height: 10vw; /* Usar unidades relativas */
   border-right: 1px solid #1A1A1A;
-  padding: 10px;
+  padding: 1vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana2 .duracion {
   border-radius: 5px;
-  padding: 15px;
+  padding: 2vw; /* Usar unidades relativas */
   color: #FFFFFF;
-  font-size: 1.2rem;
+  font-size: 1.2vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana2 .duracion .programaImg a {
   text-decoration: none;
   color: #D1E500;
 }
 .h2Info2 .listaD .programas .semana2 .duracion .programaImg a img {
-  width: 20px;
-  margin-left: 5px;
+  width: 5vw; /* Usar unidades relativas */
+  margin-left: 1vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana3 {
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 2vw; /* Usar unidades relativas */
   display: flex;
   background-color: #262626;
   padding: 10px;
   align-items: center;
 }
 .h2Info2 .listaD .programas .semana3 img {
-  width: 60px;
-  height: 60px;
+  width: 10vw; /* Usar unidades relativas */
+  height: 10vw; /* Usar unidades relativas */
   border-right: 1px solid #1A1A1A;
-  padding: 10px;
+  padding: 1vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana3 .duracion {
   border-radius: 5px;
-  padding: 15px;
+  padding: 2vw; /* Usar unidades relativas */
   color: #FFFFFF;
-  font-size: 1.2rem;
+  font-size: 1.2vw; /* Usar unidades relativas */
 }
 .h2Info2 .listaD .programas .semana3 .duracion .programaImg a {
   text-decoration: none;
   color: #D1E500;
 }
 .h2Info2 .listaD .programas .semana3 .duracion .programaImg a img {
-  width: 20px;
-  margin-left: 5px;
+  width: 5vw; /* Usar unidades relativas */
+  margin-left: 1vw; /* Usar unidades relativas */
 }
 
 /*# sourceMappingURL=style.css.map */

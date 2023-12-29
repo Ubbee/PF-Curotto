@@ -125,16 +125,16 @@
     border-top: 1px solid #333333;
     color: #BFBFBF;
     font-family: Arial, Helvetica, sans-serif;
-    //border-top: 1px solid #2E2F36;
-    padding-top: 100px;
-    padding-left: 100px;
-    width: 1200px;
-    transform: translateX(70px);
+    padding-top: 10vw; /* Usar unidades relativas */
+    padding-left: 5vw; /* Usar unidades relativas */
+    width: 90vw; /* Usar unidades relativas */
+    margin: 0 auto; /* Centrar horizontalmente */
+    transform: translateX(2vw); /* Usar unidades relativas */
 
     h2 {
         font-size: 3.5rem;
         font-weight: bold;
-        padding-bottom: 55px;
+        padding-bottom: 3vw; /* Usar unidades relativas */
     }
 
     .listaD {
@@ -149,12 +149,12 @@
                     text-decoration: none;
                     color: #BFBFBF;
                 }
-                font-size: 1.8rem;
-                padding: 20px 200px 20px 20px;
+                font-size: 2vw; /* Usar unidades relativas */
+                padding: 2vw 5vw 2vw 1vw; /* Usar unidades relativas */
                 border-bottom: 1px solid #2E2F36;
 
                 p {
-                    font-size: 1.1rem;
+                    font-size: 1.2vw; /* Usar unidades relativas */
                     color: #989898;
                     display: none;
                     
@@ -167,10 +167,10 @@
         }
 
         .programas {
-            margin-top: 25px;
+            margin-top: 2vw; /* Usar unidades relativas */
             display: flex;
             flex-direction: column;
-            margin-left: 50px;
+            margin-left: 2vw; /* Usar unidades relativas */
 
 
             .semana1 {
@@ -179,19 +179,19 @@
                 align-items: center;
                 background-color: #262626;
 
-                .imgP {
-                    width: 80px;
-                    height: 80px;
+                img {
+                    width: 10vw; /* Usar unidades relativas */
+                    height: 10vw; /* Usar unidades relativas */
                     border-right: 1px solid #1A1A1A;
-                    padding: 10px;
+                    padding: 1vw; /* Usar unidades relativas */
                 }
 
                 .duracion {
 
                     border-radius: 5px;
-                    padding: 15px;
+                    padding: 2vw; /* Usar unidades relativas */
                     color: #FFFFFF;
-                    font-size: 1.2rem;
+                    font-size: 1.2vw; /* Usar unidades relativas */
 
                     p {}
 
@@ -200,8 +200,8 @@
                             text-decoration: none;
                             color: #D1E500;
                             img{
-                                width: 20px;
-                                margin-left: 5px;
+                                width: 5vw; /* Usar unidades relativas */
+                                margin-left: 1vw; /* Usar unidades relativas */
                             }
                         }
                     }
@@ -211,32 +211,32 @@
 
             .semana2 {
                 border-radius: 5px;
-                margin-top: 15px;
+                margin-top: 2vw; /* Usar unidades relativas */
                 display: flex;
                 align-items: center;
                 background-color: #262626;
 
-                .imgP {
-                    width: 80px;
-                    height: 80px;
+                img {
+                    width: 10vw; /* Usar unidades relativas */
+                    height: 10vw; /* Usar unidades relativas */
                     border-right: 1px solid #1A1A1A;
-                    padding: 10px;
+                    padding: 1vw; /* Usar unidades relativas */
                 }
 
                 .duracion {
 
                     border-radius: 5px;
-                    padding: 15px;
+                    padding: 2vw; /* Usar unidades relativas */
                     color: #FFFFFF;
-                    font-size: 1.2rem;
+                    font-size: 1.2vw; /* Usar unidades relativas */
 
                     .programaImg {
                         a {
                             text-decoration: none;
                             color: #D1E500;
                             img{
-                                width: 20px;
-                                margin-left: 5px;
+                                width: 5vw; /* Usar unidades relativas */
+                                margin-left: 1vw; /* Usar unidades relativas */
                             }
                         }
                     }
@@ -245,33 +245,33 @@
             }
             .semana3 {
                 border-radius: 5px;
-                margin-top: 15px;
+                margin-top: 2vw; /* Usar unidades relativas */
                 display: flex;
                 background-color: #262626;
                 padding: 10px;
                 align-items: center;
 
                 img {
-                    width: 60px;
-                    height: 60px;
+                    width: 10vw; /* Usar unidades relativas */
+                    height: 10vw; /* Usar unidades relativas */
                     border-right: 1px solid #1A1A1A;
-                    padding: 10px;
+                    padding: 1vw; /* Usar unidades relativas */
                 }
 
                 .duracion {
 
                     border-radius: 5px;
-                    padding: 15px;
+                    padding: 2vw; /* Usar unidades relativas */
                     color: #FFFFFF;
-                    font-size: 1.2rem;
+                    font-size: 1.2vw; /* Usar unidades relativas */
 
                     .programaImg {
                         a {
                             text-decoration: none;
                             color: #D1E500;
                             img{
-                                width: 20px;
-                                margin-left: 5px;
+                                width: 5vw; /* Usar unidades relativas */
+                                margin-left: 1vw; /* Usar unidades relativas */
                             }
                         }
                     }

@@ -1,180 +1,137 @@
 header {
-
     display: flex;
     border-bottom: 1px solid grey;
     justify-content: space-between;
     align-items: center;
-
+  
     a {
-        padding-left: 30px;
-        margin: 20px;
-
-        img {
-            width: 150px;
-        }
+      padding-left: 2.5vw; /* Cambio de px a vw */
+      margin: 2vh;
+  
+      img {
+        width: 10vw; /* Cambio de px a vw */
+      }
     }
-
+  
     nav {
-        margin: 35px;
-        padding-right: 90px;
-
-        ul {
-            display: flex;
-
-            li {
-                padding-left: 15px;
-                list-style-type: none;
-
-                a {
-                    font-size: 1.3rem;
-
-                    color: white;
-                    font-family: Arial, Helvetica, sans-serif;
-                    text-decoration: none;
-                }
-            }
-        }
-    }
-}
-
-
-
-.dropdown {
-    display: none;
-
-    button {
-        img {
-            width: 23px;
-            height: 23px;
-        }
-    }
-
-    .dropdown-menu {
-        background-color: #262626;
-
-        li {
-            a {
-                color: white;
-                font-family: Arial, Helvetica, sans-serif;
-                transition: 1s;
-
-                &:hover {
-                    color: yellow;
-                    background-color: #262626;
-                    margin: 0;
-
-                }
-            }
-        }
-    }
-
-}
-
-@media screen and (max-width: 1300px) {
-    .dropdown {
+      margin: 2.5vh;
+      padding-right: 6.5vw; /* Cambio de px a vw */
+  
+      ul {
         display: flex;
-    }
-
-    nav ul li a {
-        display: none;
-    }
-
-}
-
-
-
-.TituloYBoton {
-    margin: 100px 500px 50px 500px;
-    display: flex;
-
-    .tituloYP {
-        text-align: center;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-
-        h1 {
-
-            text-align: center;
-            font-size: 4.7rem;
-            font-weight: bolder;
-
-            .vivo {
-                color: yellow;
+  
+        li {
+          padding-left: 1.5vw; /* Cambio de px a vw */
+          list-style-type: none;
+  
+          a {
+            font-size: 1.3rem;
+  
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            text-decoration: none;
+  
+            transition: 1s;
+  
+            &:hover {
+              color: yellow;
             }
+          }
         }
-
-        p {
-            font-size: 2rem;
-        }
+      }
     }
-}
-
-
-
-.footer1 {
-    border-top: 1px solid grey;
-    display: flex;
-    justify-content: end;
-    background-color: #1A1A1A;
-    padding: 55px;
-    margin-top: 300px;
-    flex-direction: column;
-    justify-content: center;
-
-    a {
+  
+    .dropdown {
+      display: none;
+  
+      button {
         img {
-            width: 222px;
+          width: 2.3vw; /* Cambio de px a vw */
+          height: 2.3vw; /* Cambio de px a vw */
         }
+      }
+  
+      .dropdown-menu {
+        background-color: #262626;
+  
+        li {
+          a {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 1s;
+  
+            &:hover {
+              color: yellow;
+              background-color: #262626;
+              margin: 0;
+            }
+          }
+        }
+      }
     }
+  
+    @media screen and (max-width: 1300px) {
+      .dropdown {
+        display: flex;
+      }
+  
+      nav ul li a {
+        display: none;
+      }
+    }
+  }
 
+
+
+
+  .TituloYBoton {
+    margin: 6vh 8vw 3vh 8vw; /* Cambio de px a vh/vw */
+    display: flex;
+  
+    .tituloYP {
+      text-align: center;
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+  
+      h1 {
+        text-align: center;
+        font-size: 4.7vw; /* Cambio de px a vw */
+        font-weight: bolder;
+  
+        .vivo {
+          color: yellow;
+        }
+      }
+  
+      p {
+        font-size: 2vw; /* Cambio de px a vw */
+      }
+    }
+  }
+  
+  .footer1 {
+    border-top: 0.1vw solid grey; /* Cambio de px a vw */
+    display: flex;
+    justify-content: flex-end; /* Actualización del justify-content */
+    background-color: #1A1A1A;
+    padding: 3.5vh; /* Cambio de px a vh */
+    margin-top: 20vh; /* Cambio de px a vh */
+    flex-direction: column;
+    justify-content: center; /* Actualización del justify-content */
+  
+    a {
+      img {
+        width: 9vw; /* Cambio de px a vw */
+      }
+    }
+  
     p {
-        margin-top: 60px;
-        text-align: center;
-        color: #BEBEBE;
+      margin-top: 4.5vh; /* Cambio de px a vh */
+      text-align: center;
+      color: #BEBEBE;
+      font-size: 1.6vw; /* Cambio de px a vw */
     }
-
-}
-
-
-.container {
-    .tituloYp {
-        margin-top: 150px;
-        color: white;
-        font-family: Arial, Helvetica, sans-serif;
-        text-align: center;
-
-        h1 {
-            font-size: 4.4rem;
-            font-weight: bolder;
-        }
-
-        p {
-            text-align: center;
-            font-size: 1.7rem;
-        }
-    }
-}
-
-.p {
-    margin-top: 110px;
-
-    font-size: 1.6rem;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-    font-weight: lighter;
-}
-
-.h2Empresa {
-    font-size: 4.4rem;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bolder;
-    text-align: center;
-    padding-top: 150px;
-    border-top: 1px solid #2E2F36;
-    margin: 110px 190px 70px 190px;
-    color: white;
-}
+  }
 
 .footer2 {
     border-top: 1px solid grey;
@@ -199,11 +156,60 @@ header {
     }
 }
 
+
+.container {
+    .tituloYp {
+      margin-top: 8vh; /* Cambio de px a vh */
+      color: white;
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+  
+      h1 {
+        font-size: 4.4vw; /* Cambio de px a vw */
+        font-weight: bolder;
+        
+        span {
+          color: yellow;
+        }
+      }
+  
+      p {
+        text-align: center;
+        font-size: 1.4vw; /* Cambio de px a vw */
+      }
+    }
+  }
+  
+  .p {
+    margin-top: 6.5vh; /* Cambio de px a vh */
+    font-size: 1.6vw; /* Cambio de px a vw */
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+  }
+  
+  .h2Empresa {
+    font-size: 3.7vw; /* Cambio de px a vw */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    padding-top: 10vh; /* Cambio de px a vh */
+    border-top: 0.1vw solid #2E2F36; /* Cambio de px a vw */
+    margin: 6.5vh 0.5vw 0vh 0.5vw; /* Cambio de px a vw/vh */
+    color: white;
+  }
+  
+  /* Resto del código... */
+  
+
+
+
 .promo {
     background-color: #F4FF80;
     display: flex;
     justify-content: center;
-    padding: 15px 0px 0px 0px;
+    padding: 2% 0;
 
     p {
         font-family: Arial, Helvetica, sans-serif;
@@ -214,7 +220,7 @@ header {
 
 .ModalidadExp {
     display: flex;
-    margin-top: 199px;
+    margin-top: 10%; /* Usar porcentajes para el margen superior */
     align-items: center;
 
     img {
@@ -232,9 +238,9 @@ header {
 }
 
 .ModalidadExp2 {
-    margin-left: 100px;
+    margin-left: 5%; /* Usar porcentajes para el margen izquierdo */
     display: flex;
-    margin-top: 100px;
+    margin-top: 5%; /* Usar porcentajes para el margen superior */
     align-items: center;
 
     img {
@@ -252,19 +258,19 @@ header {
 }
 
 .tituloYTexto {
-    margin-top: 50px;
+    margin-top: 3vh;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 
     h1 {
         font-size: 4rem;
         font-weight: bolder;
-        margin-bottom: 30px;
+        margin-bottom: 2vh;
     }
 
     ul {
         li {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
 
         }
 
@@ -276,27 +282,27 @@ header {
 }
 
 .certifica {
-    margin-top: 100px;
-    margin-bottom: 90px;
+    margin-top: 5%; /* Usar porcentajes para el margen superior */
+    margin-bottom: 5%;
 
     p {
         color: #BFBFBF;
         font-size: 1.5rem;
         font-family: Arial, Helvetica, sans-serif;
-        margin-bottom: 50px;
+        margin-bottom: 3vh;
     }
 
     img {
-        width: 122px;
-        margin-left: 15px;
+        width: 8vw;
+        margin-left: 1vw;
     }
 }
 
 .videoYExp {
     display: flex;
     background-color: white;
-    padding-top: 122px;
-    margin-top: 100px;
+    padding-top: 10vh; /* Usar unidades de viewport height */
+    margin-top: 5%;
 
     video {
         width: 600px;
@@ -356,26 +362,27 @@ header {
 }
 
 .h44 {
-    padding: 100px 100px 0px 100px;
+    padding: 5vh 5vw; /* Ajustar el padding usando unidades relativas */
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 4.4rem;
+    font-size: 3.5rem; /* Reducir el tamaño del texto */
     color: white;
     border-top: 1px solid #2E2F36;
 }
 
 .CoderBeca {
     display: flex;
-    margin-top: 100px;
+    margin-top: 5vh; /* Ajustar el margen superior */
     background-color: #DAEA3D;
     border-radius: 8px;
-    padding: 40px;
+    padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
     font-family: Arial, Helvetica, sans-serif;
 
     .divU {
         color: black;
-        padding: 10px 90px 10px 30px;
+        padding: 2vh 10vw 2vh 3vw; /* Ajustar el padding usando unidades relativas */
+        /* Otros estilos */
 
         h5 {
             font-size: 4rem;
@@ -389,12 +396,13 @@ header {
     }
 
     .divD {
-        width: 1300px;
-        margin-right: 30px;
+        width: 90%; /* Utilizar ancho relativo */
+        margin-right: 2%; /* Ajustar el margen derecho */
         background-color: #1A1A1A;
         border-radius: 5px;
         color: #BDBDBD;
-        padding: 55px 55px 75px 55px;
+        padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
+        /* Otros estilos */
 
         h6 {
             color: white;
@@ -427,16 +435,16 @@ header {
 .packInicialTitulo {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 70px 70px 70px;
-    padding: 25px;
+    margin: 3vh 3vw; /* Ajustar el margen usando unidades relativas */
+    padding: 2vh 2vw; /* Ajustar el padding usando unidades relativas */
 
     h1 {
         color: white;
         text-align: start;
-        margin: 0px 200px 30px 0px;
-        font-size: 3.8rem;
+        margin: 0 5vw 3vh 0; /* Ajustar el margen usando unidades relativas */
+        font-size: 2.5rem; /* Reducir el tamaño del texto */
         font-weight: bolder;
-        width: 600px;
+        width: 50%; /* Utilizar ancho relativo */
     }
 
     .parte1 {
@@ -444,15 +452,15 @@ header {
 
         ul {
             li {
-                font-size: 1.2rem;
-                margin-top: 15px;
+                font-size: 1.1rem;
+                margin-top: 1.5vh;
             }
 
-            padding-bottom: 35px;
+            padding-bottom: 3.5vh;
         }
 
         button {
-            padding: 15px 20px 15px 20px;
+            padding: 3vh 4vw;
             background-color: #F1F100;
             color: #5D5D12;
             border-radius: 6px;
@@ -469,31 +477,31 @@ header {
             align-items: center;
 
             img {
-                width: 120px;
-                padding-right: 15px;
+                width: 10vw; /* Ancho relativo */
+                padding-right: 1.5vw; /* Unidades relativas */
             }
         }
     }
 
     .parte2 {
-        transform: translateX(-120px) translateY(60px);
+        transform: translateX(-7vw) translateY(6vh);
 
         img {
-            width: 420px;
+            width: 35vw; /* Ancho relativo */
         }
 
         .cartaG {
-            width: 550px;
+            width: 45vw; /* Ancho relativo */
             display: flex;
             background-color: #242424;
-            margin-top: 50px;
-            padding: 25px;
+            margin-top: 5vh; /* Unidades relativas */
+            padding: 2.5vh; /* Unidades relativas */
 
             .imgYl {
-
+                
                 img {
-                    width: 110px;
-                    padding-bottom: 25px;
+                    width: 10vw; /* Ancho relativo */
+                    padding-bottom: 2.5vh; /* Unidades relativas */
                 }
 
                 text-align: center;
@@ -518,67 +526,83 @@ header {
 
 
 }
-.impulso{
-    padding: 100px;
+
+.impulso {
+    padding: 10vh; /* Ajustar el padding usando unidades relativas */
     display: flex;
     justify-content: center;
-    .impulsaCarrera{
+
+    .impulsaCarrera {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
-        h3{
+
+        h3 {
             font-size: 4rem;
             font-weight: bolder;
         }
-        p{
+
+        p {
             font-size: 1.3rem;
         }
     }
-    
-    .impulsaConP{
-        transform: translateY(-30px);
-        img{
-            width: 400px;
-            transform: translateX(50px) translateY(35px);
+
+    .impulsaConP {
+        transform: translateY(-2.5vh);
+
+        img {
+            width: 25vw; /* Cambiar a unidades relativas */
+            transform: translateX(3.5vw) translateY(3vh);
         }
-        div{
+
+        div {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #242424;
             color: #CCCCCC;
-            padding: 45px 25px 25px 25px;
-            border-radius: 15px;
-            width: 500px;
-            .terminos{
+            padding: 5vh 2.5vw 2.5vh 2.5vw; /* Utilizando unidades relativas */
+            border-radius: 3vh;
+            width: 35vw; /* Cambiar a unidades relativas */
+
+            .terminos {
                 font-weight: bold;
                 color: yellow;
             }
         }
     }
 
-    .botonesInfo{
-        padding-top: 40px;
+    .botonesInfo {
+        padding-top: 5vh; /* Utilizando unidades relativas */
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.3rem;
-        button{
-            
-            padding: 15px 22px 15px 22px;
+
+        button {
+
+            padding: 2.5vh 3.5vw 2.5vh 3.5vw; /* Utilizando unidades relativas */
             border-radius: 6px;
-            p{
+
+            p {
                 text-decoration: none;
                 color: #343417;
             }
         }
-        .boto2{
-            margin-left: 35px;
+
+        .boto2 {
+            margin-left: 3.5vw; /* Cambiar a unidades relativas */
             background-color: #1A1A1A;
-            border: 1px solid #393B43;
-            p{
+            border: 0.1vw solid #393B43; /* Cambiar a unidades relativas */
+
+            p {
                 color: yellow;
             }
         }
-        .boto1{
+
+        .boto1 {
             background-color: #F1F100;
         }
     }
 
 }
+
+
+
+

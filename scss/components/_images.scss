@@ -1,3 +1,36 @@
-.imagenes9{
+.imagenes9 {
     margin-top: 60px;
+}
+
+
+
+.logoGarantia {
+
+    animation-name: logoGarantia;
+
+    animation-iteration-count: infinite;
+
+    animation-timing-function: linear;
+
+    animation-duration: 3s;
+
+    // Para definir cuanto voy a esperar para que la animacion empiece
+    animation-delay: 0s;
+
+}
+
+@keyframes logoGarantia {
+
+    0% {
+        transform: translateY(0); /* Empieza desde su posición original */
+      }
+      25% {
+        transform: translateY(20px); /* Se mueve 20px hacia arriba */
+      }
+      75% {
+        transform: translateY(-10px); /* Se mueve 20px hacia abajo */
+      }
+      100% {
+        transform: translateY(0); /* Vuelve a la posición original */
+      }
 }
