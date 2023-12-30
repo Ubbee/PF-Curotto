@@ -815,11 +815,24 @@ header .dropdown .dropdown-menu li a:hover {
 
 .video-container {
   border-top: 1px solid #2E2F36;
-  padding-top: 140px;
   display: flex;
   justify-content: center;
-  padding-top: 200px;
-  margin: 200px;
+  padding-top: 200px; /* Puedes ajustar el espacio superior */
+  margin: 0 auto; /* Para centrar horizontalmente */
+  max-width: 800px; /* Ajusta el ancho máximo del contenedor según tu diseño */
+}
+@media (max-width: 768px) {
+  .video-container {
+    padding-top: 100px; /* Cambio de espaciado para pantallas más pequeñas */
+  }
+}
+
+.video {
+  max-width: 100%; /* Asegura que el video se ajuste al ancho del contenedor */
+}
+.video video {
+  width: 100%; /* Asegura que el video ocupe todo el ancho del contenedor */
+  height: auto; /* Permite que la altura se ajuste proporcionalmente al ancho */
 }
 
 .imagenes9 {
