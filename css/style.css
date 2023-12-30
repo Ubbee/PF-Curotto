@@ -20,21 +20,21 @@ header {
   align-items: center;
 }
 header a {
-  padding-left: 2.5vw; /* Cambio de px a vw */
+  padding-left: 2.5vw;
   margin: 2vh;
 }
 header a img {
-  width: 10vw; /* Cambio de px a vw */
+  width: 10vw;
 }
 header nav {
   margin: 2.5vh;
-  padding-right: 6.5vw; /* Cambio de px a vw */
+  padding-right: 6.5vw;
 }
 header nav ul {
   display: flex;
 }
 header nav ul li {
-  padding-left: 1.5vw; /* Cambio de px a vw */
+  padding-left: 1.5vw;
   list-style-type: none;
 }
 header nav ul li a {
@@ -51,8 +51,8 @@ header .dropdown {
   display: none;
 }
 header .dropdown button img {
-  width: 2.3vw; /* Cambio de px a vw */
-  height: 2.3vw; /* Cambio de px a vw */
+  width: 2.3vw;
+  height: 2.3vw;
 }
 header .dropdown .dropdown-menu {
   background-color: #262626;
@@ -77,7 +77,7 @@ header .dropdown .dropdown-menu li a:hover {
 }
 
 .TituloYBoton {
-  margin: 6vh 8vw 3vh 8vw; /* Cambio de px a vh/vw */
+  margin: 6vh 8vw 3vh 8vw;
   display: flex;
 }
 .TituloYBoton .tituloYP {
@@ -87,34 +87,34 @@ header .dropdown .dropdown-menu li a:hover {
 }
 .TituloYBoton .tituloYP h1 {
   text-align: center;
-  font-size: 4.7vw; /* Cambio de px a vw */
+  font-size: 4.7vw;
   font-weight: bolder;
 }
 .TituloYBoton .tituloYP h1 .vivo {
   color: yellow;
 }
 .TituloYBoton .tituloYP p {
-  font-size: 2vw; /* Cambio de px a vw */
+  font-size: 2vw;
 }
 
 .footer1 {
-  border-top: 0.1vw solid grey; /* Cambio de px a vw */
+  border-top: 0.1vw solid grey;
   display: flex;
-  justify-content: flex-end; /* Actualización del justify-content */
+  justify-content: flex-end;
   background-color: #1A1A1A;
-  padding: 3.5vh; /* Cambio de px a vh */
-  margin-top: 20vh; /* Cambio de px a vh */
+  padding: 3.5vh;
+  margin-top: 20vh;
   flex-direction: column;
-  justify-content: center; /* Actualización del justify-content */
+  justify-content: center;
 }
 .footer1 a img {
-  width: 9vw; /* Cambio de px a vw */
+  width: 9vw;
 }
 .footer1 p {
-  margin-top: 4.5vh; /* Cambio de px a vh */
+  margin-top: 4.5vh;
   text-align: center;
   color: #BEBEBE;
-  font-size: 1.6vw; /* Cambio de px a vw */
+  font-size: 1.6vw;
 }
 
 .footer2 {
@@ -137,13 +137,13 @@ header .dropdown .dropdown-menu li a:hover {
 }
 
 .container .tituloYp {
-  margin-top: 8vh; /* Cambio de px a vh */
+  margin-top: 8vh;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
 }
 .container .tituloYp h1 {
-  font-size: 4.4vw; /* Cambio de px a vw */
+  font-size: 4.4vw;
   font-weight: bolder;
 }
 .container .tituloYp h1 span {
@@ -151,12 +151,12 @@ header .dropdown .dropdown-menu li a:hover {
 }
 .container .tituloYp p {
   text-align: center;
-  font-size: 1.4vw; /* Cambio de px a vw */
+  font-size: 1.4vw;
 }
 
 .p {
-  margin-top: 6.5vh; /* Cambio de px a vh */
-  font-size: 1.6vw; /* Cambio de px a vw */
+  margin-top: 6.5vh;
+  font-size: 1.6vw;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   color: white;
@@ -164,17 +164,16 @@ header .dropdown .dropdown-menu li a:hover {
 }
 
 .h2Empresa {
-  font-size: 3.7vw; /* Cambio de px a vw */
+  font-size: 3.7vw;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
   text-align: center;
-  padding-top: 10vh; /* Cambio de px a vh */
-  border-top: 0.1vw solid #2E2F36; /* Cambio de px a vw */
-  margin: 6.5vh 0.5vw 0vh 0.5vw; /* Cambio de px a vw/vh */
+  padding-top: 10vh;
+  border-top: 0.1vw solid #2E2F36;
+  margin: 6.5vh 0.5vw 0vh 0.5vw;
   color: white;
 }
 
-/* Resto del código... */
 .promo {
   background-color: #F4FF80;
   display: flex;
@@ -188,7 +187,7 @@ header .dropdown .dropdown-menu li a:hover {
 
 .ModalidadExp {
   display: flex;
-  margin-top: 10%; /* Usar porcentajes para el margen superior */
+  margin-top: 10%;
   align-items: center;
 }
 .ModalidadExp img {
@@ -203,9 +202,9 @@ header .dropdown .dropdown-menu li a:hover {
 }
 
 .ModalidadExp2 {
-  margin-left: 5%; /* Usar porcentajes para el margen izquierdo */
+  margin-left: 5%;
   display: flex;
-  margin-top: 5%; /* Usar porcentajes para el margen superior */
+  margin-top: 5%;
   align-items: center;
 }
 .ModalidadExp2 img {
@@ -238,7 +237,7 @@ header .dropdown .dropdown-menu li a:hover {
 }
 
 .certifica {
-  margin-top: 5%; /* Usar porcentajes para el margen superior */
+  margin-top: 5%;
   margin-bottom: 5%;
 }
 .certifica p {
@@ -255,7 +254,7 @@ header .dropdown .dropdown-menu li a:hover {
 .videoYExp {
   display: flex;
   background-color: white;
-  padding-top: 10vh; /* Usar unidades de viewport height */
+  padding-top: 10vh;
   margin-top: 5%;
 }
 .videoYExp video {
@@ -304,28 +303,27 @@ header .dropdown .dropdown-menu li a:hover {
 }
 
 .h44 {
-  padding: 5vh 5vw; /* Ajustar el padding usando unidades relativas */
+  padding: 5vh 5vw;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bolder;
-  font-size: 3.5rem; /* Reducir el tamaño del texto */
+  font-size: 3.5rem;
   color: white;
   border-top: 1px solid #2E2F36;
 }
 
 .CoderBeca {
   display: flex;
-  margin-top: 5vh; /* Ajustar el margen superior */
+  margin-top: 5vh;
   background-color: #DAEA3D;
   border-radius: 8px;
-  padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
+  padding: 3vh 3vw;
   font-family: Arial, Helvetica, sans-serif;
   background-image: linear-gradient(to top, #DAEA3D, #DAEA3D);
 }
 .CoderBeca .divU {
   color: black;
-  padding: 2vh 10vw 2vh 3vw; /* Ajustar el padding usando unidades relativas */
-  /* Otros estilos */
+  padding: 2vh 10vw 2vh 3vw;
 }
 .CoderBeca .divU h5 {
   font-size: 4rem;
@@ -336,13 +334,12 @@ header .dropdown .dropdown-menu li a:hover {
   color: #1A1A1A;
 }
 .CoderBeca .divD {
-  width: 90%; /* Utilizar ancho relativo */
-  margin-right: 2%; /* Ajustar el margen derecho */
+  width: 90%;
+  margin-right: 2%;
   background-color: #1A1A1A;
   border-radius: 5px;
   color: #BDBDBD;
-  padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
-  /* Otros estilos */
+  padding: 3vh 3vw;
   transform: translateY(80px);
   box-shadow: 20px 20px 60px 20px rgba(0, 0, 0, 0.3);
 }
@@ -365,25 +362,25 @@ header .dropdown .dropdown-menu li a:hover {
 .packInicialTitulo {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
-  margin: 3vh 3vw; /* Ajustar el margen usando unidades relativas */
-  padding: 2vh 2vw; /* Ajustar el padding usando unidades relativas */
+  margin: 3vh 3vw;
+  padding: 2vh 2vw;
 }
 .packInicialTitulo h1 {
   color: white;
   text-align: start;
-  margin: 0 5vw 3vh 0; /* Ajustar el margen usando unidades relativas */
-  font-size: 4rem; /* Ajustar el tamaño del h1 */
+  margin: 0 5vw 3vh 0;
+  font-size: 4rem;
   font-weight: bolder;
-  width: 70%; /* Modificar el ancho relativo */
-  margin-right: 10vw; /* Ajustar el margen derecho */
+  width: 70%;
+  margin-right: 10vw;
 }
 .packInicialTitulo .parte1 {
   color: #C3C3C3;
 }
 .packInicialTitulo .parte1 ul li {
-  font-size: 1.5rem; /* Ajustar el tamaño del texto */
-  margin-top: 2vh; /* Modificar el margen superior */
-  padding-bottom: 5vh; /* Modificar el padding inferior */
+  font-size: 1.5rem;
+  margin-top: 2vh;
+  padding-bottom: 5vh;
 }
 .packInicialTitulo .parte1 button {
   padding: 3vh 4vw;
@@ -401,28 +398,28 @@ header .dropdown .dropdown-menu li a:hover {
   align-items: center;
 }
 .packInicialTitulo .parte1 .imagenes3 img {
-  width: 10vw; /* Ancho relativo */
-  padding-right: 1.5vw; /* Unidades relativas */
+  width: 10vw;
+  padding-right: 1.5vw;
 }
 .packInicialTitulo .parte2 {
   transform: translateX(-7vw) translateY(6vh);
 }
 .packInicialTitulo .parte2 img {
-  width: 35vw; /* Ancho relativo */
+  width: 35vw;
 }
 .packInicialTitulo .parte2 .cartaG {
-  width: 45vw; /* Ancho relativo */
+  width: 45vw;
   display: flex;
   background-color: #242424;
-  margin-top: 5vh; /* Unidades relativas */
-  padding: 2.5vh; /* Unidades relativas */
+  margin-top: 5vh;
+  padding: 2.5vh;
 }
 .packInicialTitulo .parte2 .cartaG .imgYl {
   text-align: center;
 }
 .packInicialTitulo .parte2 .cartaG .imgYl img {
-  width: 10vw; /* Ancho relativo */
-  padding-bottom: 2.5vh; /* Unidades relativas */
+  width: 10vw;
+  padding-bottom: 2.5vh;
 }
 .packInicialTitulo .parte2 .cartaG .imgYl a {
   font-family: Arial, Helvetica, sans-serif;
@@ -437,7 +434,7 @@ header .dropdown .dropdown-menu li a:hover {
 }
 
 .impulso {
-  padding: 10vh; /* Ajustar el padding usando unidades relativas */
+  padding: 10vh;
   display: flex;
   justify-content: center;
 }
@@ -456,29 +453,29 @@ header .dropdown .dropdown-menu li a:hover {
   transform: translateY(-2.5vh);
 }
 .impulso .impulsaConP img {
-  width: 25vw; /* Cambiar a unidades relativas */
+  width: 25vw;
   transform: translateX(3.5vw) translateY(3vh);
 }
 .impulso .impulsaConP div {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #242424;
   color: #CCCCCC;
-  padding: 5vh 2.5vw 2.5vh 2.5vw; /* Utilizando unidades relativas */
+  padding: 5vh 2.5vw 2.5vh 2.5vw;
   border-radius: 3vh;
-  width: 35vw; /* Cambiar a unidades relativas */
+  width: 35vw;
 }
 .impulso .impulsaConP div .terminos {
   font-weight: bold;
   color: yellow;
 }
 .impulso .botonesInfo {
-  padding-top: 5vh; /* Utilizando unidades relativas */
+  padding-top: 5vh;
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1.3rem;
 }
 .impulso .botonesInfo button {
-  padding: 2.5vh 3.5vw 2.5vh 3.5vw; /* Utilizando unidades relativas */
+  padding: 2.5vh 3.5vw 2.5vh 3.5vw;
   border-radius: 6px;
 }
 .impulso .botonesInfo button p {
@@ -486,9 +483,9 @@ header .dropdown .dropdown-menu li a:hover {
   color: #343417;
 }
 .impulso .botonesInfo .boto2 {
-  margin-left: 3.5vw; /* Cambiar a unidades relativas */
+  margin-left: 3.5vw;
   background-color: #1A1A1A;
-  border: 0.1vw solid #393B43; /* Cambiar a unidades relativas */
+  border: 0.1vw solid #393B43;
 }
 .impulso .botonesInfo .boto2 p {
   color: yellow;
@@ -569,6 +566,40 @@ header .dropdown .dropdown-menu li a:hover {
   background-color: #D4E761;
 }
 
+.botones {
+  padding-top: 100px;
+  display: flexbox;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+.botones button {
+  padding: 35px 55px 35px 55px;
+  border-radius: 10px;
+  background-color: #c9db03;
+  transition: 1s;
+}
+.botones button:hover {
+  background-color: #d1dd4c;
+  transition: 0.5s;
+}
+.botones button a {
+  color: black;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+.botones .conoce {
+  margin-top: 25px;
+}
+.botones .conoce img {
+  width: 36px;
+}
+.botones .conoce a {
+  color: #c9db03;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-size: 1.3rem;
+}
+
 .cartaEntrada {
   display: flex;
   justify-content: center;
@@ -604,40 +635,6 @@ header .dropdown .dropdown-menu li a:hover {
 .cartaEntrada .accede .ver img {
   width: 40px;
   height: 40px;
-}
-
-.botones {
-  padding-top: 100px;
-  display: flexbox;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: center;
-}
-.botones button {
-  padding: 35px 55px 35px 55px;
-  border-radius: 10px;
-  background-color: #c9db03;
-  transition: 1s;
-}
-.botones button:hover {
-  background-color: #d1dd4c;
-  transition: 0.5s;
-}
-.botones button a {
-  color: black;
-  text-decoration: none;
-  font-size: 1.3rem;
-}
-.botones .conoce {
-  margin-top: 25px;
-}
-.botones .conoce img {
-  width: 36px;
-}
-.botones .conoce a {
-  color: #c9db03;
-  font-family: Arial, Helvetica, sans-serif;
-  text-decoration: none;
-  font-size: 1.3rem;
 }
 
 .container .grid-container {
@@ -949,16 +946,16 @@ header .dropdown .dropdown-menu li a:hover {
   border-top: 1px solid #333333;
   color: #BFBFBF;
   font-family: Arial, Helvetica, sans-serif;
-  padding-top: 10vw; /* Usar unidades relativas */
-  padding-left: 5vw; /* Usar unidades relativas */
-  width: 90vw; /* Usar unidades relativas */
-  margin: 0 auto; /* Centrar horizontalmente */
-  transform: translateX(2vw); /* Usar unidades relativas */
+  padding-top: 10vw;
+  padding-left: 5vw;
+  width: 90vw;
+  margin: 0 auto;
+  transform: translateX(2vw);
 }
 .h2Info2 h2 {
   font-size: 3.5rem;
   font-weight: bold;
-  padding-bottom: 3vw; /* Usar unidades relativas */
+  padding-bottom: 3vw;
 }
 .h2Info2 .listaD {
   display: flex;
@@ -967,8 +964,8 @@ header .dropdown .dropdown-menu li a:hover {
   list-style-type: none;
 }
 .h2Info2 .listaD ul li {
-  font-size: 2vw; /* Usar unidades relativas */
-  padding: 2vw 5vw 2vw 1vw; /* Usar unidades relativas */
+  font-size: 2vw;
+  padding: 2vw 5vw 2vw 1vw;
   border-bottom: 1px solid #2E2F36;
 }
 .h2Info2 .listaD ul li a {
@@ -976,7 +973,7 @@ header .dropdown .dropdown-menu li a:hover {
   color: #BFBFBF;
 }
 .h2Info2 .listaD ul li p {
-  font-size: 1.2vw; /* Usar unidades relativas */
+  font-size: 1.2vw;
   color: #989898;
   display: none;
 }
@@ -984,10 +981,10 @@ header .dropdown .dropdown-menu li a:hover {
   display: none;
 }
 .h2Info2 .listaD .programas {
-  margin-top: 2vw; /* Usar unidades relativas */
+  margin-top: 2vw;
   display: flex;
   flex-direction: column;
-  margin-left: 2vw; /* Usar unidades relativas */
+  margin-left: 2vw;
 }
 .h2Info2 .listaD .programas .semana1 {
   border-radius: 5px;
@@ -996,79 +993,78 @@ header .dropdown .dropdown-menu li a:hover {
   background-color: #262626;
 }
 .h2Info2 .listaD .programas .semana1 img {
-  width: 10vw; /* Usar unidades relativas */
-  height: 10vw; /* Usar unidades relativas */
+  width: 7vw;
+  height: 5vw;
   border-right: 1px solid #1A1A1A;
-  padding: 1vw; /* Usar unidades relativas */
+  padding: 1vw;
 }
 .h2Info2 .listaD .programas .semana1 .duracion {
   border-radius: 5px;
-  padding: 2vw; /* Usar unidades relativas */
+  padding: 2vw;
   color: #FFFFFF;
-  font-size: 1.2vw; /* Usar unidades relativas */
+  font-size: 1.2vw;
 }
 .h2Info2 .listaD .programas .semana1 .duracion .programaImg a {
   text-decoration: none;
   color: #D1E500;
 }
 .h2Info2 .listaD .programas .semana1 .duracion .programaImg a img {
-  width: 5vw; /* Usar unidades relativas */
-  margin-left: 1vw; /* Usar unidades relativas */
+  width: 5vw;
+  margin-left: 1vw;
 }
 .h2Info2 .listaD .programas .semana2 {
   border-radius: 5px;
-  margin-top: 2vw; /* Usar unidades relativas */
+  margin-top: 2vw;
   display: flex;
   align-items: center;
   background-color: #262626;
 }
 .h2Info2 .listaD .programas .semana2 img {
-  width: 10vw; /* Usar unidades relativas */
-  height: 10vw; /* Usar unidades relativas */
+  width: 6vw;
+  height: 6vw;
   border-right: 1px solid #1A1A1A;
-  padding: 1vw; /* Usar unidades relativas */
+  padding: 1vw;
 }
 .h2Info2 .listaD .programas .semana2 .duracion {
   border-radius: 5px;
-  padding: 2vw; /* Usar unidades relativas */
+  padding: 2vw;
   color: #FFFFFF;
-  font-size: 1.2vw; /* Usar unidades relativas */
+  font-size: 1.2vw;
 }
 .h2Info2 .listaD .programas .semana2 .duracion .programaImg a {
   text-decoration: none;
   color: #D1E500;
 }
 .h2Info2 .listaD .programas .semana2 .duracion .programaImg a img {
-  width: 5vw; /* Usar unidades relativas */
-  margin-left: 1vw; /* Usar unidades relativas */
+  width: 5vw;
+  margin-left: 1vw;
 }
 .h2Info2 .listaD .programas .semana3 {
   border-radius: 5px;
-  margin-top: 2vw; /* Usar unidades relativas */
+  margin-top: 2vw;
   display: flex;
   background-color: #262626;
-  padding: 10px;
-  align-items: center;
+  padding: 10px 10px 0px 10px;
 }
 .h2Info2 .listaD .programas .semana3 img {
-  width: 10vw; /* Usar unidades relativas */
-  height: 10vw; /* Usar unidades relativas */
+  width: 5vw;
+  height: 5vw;
   border-right: 1px solid #1A1A1A;
-  padding: 1vw; /* Usar unidades relativas */
+  padding: 1vw;
 }
 .h2Info2 .listaD .programas .semana3 .duracion {
   border-radius: 5px;
-  padding: 2vw; /* Usar unidades relativas */
+  padding: 2vw;
   color: #FFFFFF;
-  font-size: 1.2vw; /* Usar unidades relativas */
+  font-size: 1.2vw;
 }
 .h2Info2 .listaD .programas .semana3 .duracion .programaImg a {
   text-decoration: none;
   color: #D1E500;
 }
 .h2Info2 .listaD .programas .semana3 .duracion .programaImg a img {
-  width: 5vw; /* Usar unidades relativas */
-  margin-left: 1vw; /* Usar unidades relativas */
+  width: 5vw;
+  margin-left: 1vw;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,138 +1,140 @@
+//-----------------HEADER--------------------
 header {
     display: flex;
     border-bottom: 1px solid grey;
     justify-content: space-between;
     align-items: center;
-  
+
     a {
-      padding-left: 2.5vw; /* Cambio de px a vw */
-      margin: 2vh;
-  
-      img {
-        width: 10vw; /* Cambio de px a vw */
-      }
-    }
-  
-    nav {
-      margin: 2.5vh;
-      padding-right: 6.5vw; /* Cambio de px a vw */
-  
-      ul {
-        display: flex;
-  
-        li {
-          padding-left: 1.5vw; /* Cambio de px a vw */
-          list-style-type: none;
-  
-          a {
-            font-size: 1.3rem;
-  
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            text-decoration: none;
-  
-            transition: 1s;
-  
-            &:hover {
-              color: yellow;
-            }
-          }
-        }
-      }
-    }
-  
-    .dropdown {
-      display: none;
-  
-      button {
+        padding-left: 2.5vw;
+        margin: 2vh;
+
         img {
-          width: 2.3vw; /* Cambio de px a vw */
-          height: 2.3vw; /* Cambio de px a vw */
+            width: 10vw;
         }
-      }
-  
-      .dropdown-menu {
-        background-color: #262626;
-  
-        li {
-          a {
-            color: white;
-            font-family: Arial, Helvetica, sans-serif;
-            transition: 1s;
-  
-            &:hover {
-              color: yellow;
-              background-color: #262626;
-              margin: 0;
+    }
+
+    nav {
+        margin: 2.5vh;
+        padding-right: 6.5vw;
+
+        ul {
+            display: flex;
+
+            li {
+                padding-left: 1.5vw;
+                list-style-type: none;
+
+                a {
+                    font-size: 1.3rem;
+
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-decoration: none;
+
+                    transition: 1s;
+
+                    &:hover {
+                        color: yellow;
+                    }
+                }
             }
-          }
         }
-      }
     }
-  
-    @media screen and (max-width: 1300px) {
-      .dropdown {
-        display: flex;
-      }
-  
-      nav ul li a {
+
+    .dropdown {
         display: none;
-      }
-    }
-  }
 
-
-
-
-  .TituloYBoton {
-    margin: 6vh 8vw 3vh 8vw; /* Cambio de px a vh/vw */
-    display: flex;
-  
-    .tituloYP {
-      text-align: center;
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-  
-      h1 {
-        text-align: center;
-        font-size: 4.7vw; /* Cambio de px a vw */
-        font-weight: bolder;
-  
-        .vivo {
-          color: yellow;
+        button {
+            img {
+                width: 2.3vw;
+                height: 2.3vw;
+            }
         }
-      }
-  
-      p {
-        font-size: 2vw; /* Cambio de px a vw */
-      }
-    }
-  }
-  
-  .footer1 {
-    border-top: 0.1vw solid grey; /* Cambio de px a vw */
-    display: flex;
-    justify-content: flex-end; /* Actualización del justify-content */
-    background-color: #1A1A1A;
-    padding: 3.5vh; /* Cambio de px a vh */
-    margin-top: 20vh; /* Cambio de px a vh */
-    flex-direction: column;
-    justify-content: center; /* Actualización del justify-content */
-  
-    a {
-      img {
-        width: 9vw; /* Cambio de px a vw */
-      }
-    }
-  
-    p {
-      margin-top: 4.5vh; /* Cambio de px a vh */
-      text-align: center;
-      color: #BEBEBE;
-      font-size: 1.6vw; /* Cambio de px a vw */
-    }
-  }
 
+        .dropdown-menu {
+            background-color: #262626;
+
+            li {
+                a {
+                    color: white;
+                    font-family: Arial, Helvetica, sans-serif;
+                    transition: 1s;
+
+                    &:hover {
+                        color: yellow;
+                        background-color: #262626;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        .dropdown {
+            display: flex;
+        }
+
+        nav ul li a {
+            display: none;
+        }
+    }
+}
+
+
+
+//-----------------TITULO Y BOTON DEL INDEX--------------------
+.TituloYBoton {
+    margin: 6vh 8vw 3vh 8vw;
+    display: flex;
+
+    .tituloYP {
+        text-align: center;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+
+        h1 {
+            text-align: center;
+            font-size: 4.7vw;
+            font-weight: bolder;
+
+            .vivo {
+                color: yellow;
+            }
+        }
+
+        p {
+            font-size: 2vw;
+        }
+    }
+}
+
+//-----------------FOOTER-1--------------------
+.footer1 {
+    border-top: 0.1vw solid grey;
+    display: flex;
+    justify-content: flex-end;
+    background-color: #1A1A1A;
+    padding: 3.5vh;
+    margin-top: 20vh;
+    flex-direction: column;
+    justify-content: center;
+
+    a {
+        img {
+            width: 9vw;
+        }
+    }
+
+    p {
+        margin-top: 4.5vh;
+        text-align: center;
+        color: #BEBEBE;
+        font-size: 1.6vw;
+    }
+}
+//-----------------FOOTER-2--------------------
 .footer2 {
     border-top: 1px solid grey;
     display: flex;
@@ -156,55 +158,50 @@ header {
     }
 }
 
-
+//-----------------CONTAINER-GENERAL-PARA-VARIOS-HTML--------------------
 .container {
     .tituloYp {
-      margin-top: 8vh; /* Cambio de px a vh */
-      color: white;
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: center;
-  
-      h1 {
-        font-size: 4.4vw; /* Cambio de px a vw */
-        font-weight: bolder;
-        
-        span {
-          color: yellow;
-        }
-      }
-  
-      p {
+        margin-top: 8vh;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
         text-align: center;
-        font-size: 1.4vw; /* Cambio de px a vw */
-      }
+
+        h1 {
+            font-size: 4.4vw;
+            font-weight: bolder;
+
+            span {
+                color: yellow;
+            }
+        }
+
+        p {
+            text-align: center;
+            font-size: 1.4vw;
+        }
     }
-  }
-  
-  .p {
-    margin-top: 6.5vh; /* Cambio de px a vh */
-    font-size: 1.6vw; /* Cambio de px a vw */
+}
+//-----------------P-DEL-HTML-paraEmpresas--------------------
+.p {
+    margin-top: 6.5vh;
+    font-size: 1.6vw;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     color: white;
     font-weight: lighter;
-  }
-  
-  .h2Empresa {
-    font-size: 3.7vw; /* Cambio de px a vw */
+}
+//-----------------H2-DEL-HTML-paraEmpresas--------------------
+.h2Empresa {
+    font-size: 3.7vw;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     text-align: center;
-    padding-top: 10vh; /* Cambio de px a vh */
-    border-top: 0.1vw solid #2E2F36; /* Cambio de px a vw */
-    margin: 6.5vh 0.5vw 0vh 0.5vw; /* Cambio de px a vw/vh */
+    padding-top: 10vh;
+    border-top: 0.1vw solid #2E2F36;
+    margin: 6.5vh 0.5vw 0vh 0.5vw;
     color: white;
-  }
-  
-  /* Resto del código... */
-  
-
-
-
+}
+//-----------------PROMO-DE-TODOS-LOS-HTML-ARRIBA-DEL-NAV--------------------
 .promo {
     background-color: #F4FF80;
     display: flex;
@@ -217,10 +214,10 @@ header {
     }
 }
 
-
+//-----------------ICONO-PUNTO-ROJO Y TEXTO-DEL-HTML-CARRERAS-------------------
 .ModalidadExp {
     display: flex;
-    margin-top: 10%; /* Usar porcentajes para el margen superior */
+    margin-top: 10%;
     align-items: center;
 
     img {
@@ -236,11 +233,11 @@ header {
     }
 
 }
-
+//-----------------ICONO-PUNTO-ROJO Y TEXTO-DEL-HTML-CARRERAS-INTENSIVAS------------------
 .ModalidadExp2 {
-    margin-left: 5%; /* Usar porcentajes para el margen izquierdo */
+    margin-left: 5%;
     display: flex;
-    margin-top: 5%; /* Usar porcentajes para el margen superior */
+    margin-top: 5%;
     align-items: center;
 
     img {
@@ -256,7 +253,7 @@ header {
     }
 
 }
-
+//-----------------TITULO-Y-TEXTO-DE-CURSOS--------------------
 .tituloYTexto {
     margin-top: 3vh;
     color: white;
@@ -280,9 +277,9 @@ header {
         }
     }
 }
-
+//-----------------CERTIFICADO-DE-PEDIDOSYA-CURSOS---------------------
 .certifica {
-    margin-top: 5%; /* Usar porcentajes para el margen superior */
+    margin-top: 5%;
     margin-bottom: 5%;
 
     p {
@@ -297,11 +294,11 @@ header {
         margin-left: 1vw;
     }
 }
-
+//-----------------VIDEO-Y-EXPLICACION-CURSOS--------------------
 .videoYExp {
     display: flex;
     background-color: white;
-    padding-top: 10vh; /* Usar unidades de viewport height */
+    padding-top: 10vh;
     margin-top: 5%;
 
     video {
@@ -320,7 +317,7 @@ header {
         font-size: 1.4rem;
     }
 }
-
+//-----------------DIV-CLASE-PRUEBA-CURSOS--------------------
 .clasePrueba {
     margin-top: 150px;
     margin-bottom: 80px;
@@ -360,29 +357,29 @@ header {
 
 
 }
-
+//-----------------H4-DE-CURSOS--------------------
 .h44 {
-    padding: 5vh 5vw; /* Ajustar el padding usando unidades relativas */
+    padding: 5vh 5vw;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
-    font-size: 3.5rem; /* Reducir el tamaño del texto */
+    font-size: 3.5rem;
     color: white;
     border-top: 1px solid #2E2F36;
 }
 
+//-----------------CODERBECA-DE-CURSOS--------------------
 .CoderBeca {
     display: flex;
-    margin-top: 5vh; /* Ajustar el margen superior */
+    margin-top: 5vh;
     background-color: #DAEA3D;
     border-radius: 8px;
-    padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
+    padding: 3vh 3vw;
     font-family: Arial, Helvetica, sans-serif;
 
     .divU {
         color: black;
-        padding: 2vh 10vw 2vh 3vw; /* Ajustar el padding usando unidades relativas */
-        /* Otros estilos */
+        padding: 2vh 10vw 2vh 3vw;
 
         h5 {
             font-size: 4rem;
@@ -396,13 +393,12 @@ header {
     }
 
     .divD {
-        width: 90%; /* Utilizar ancho relativo */
-        margin-right: 2%; /* Ajustar el margen derecho */
+        width: 90%;
+        margin-right: 2%;
         background-color: #1A1A1A;
         border-radius: 5px;
         color: #BDBDBD;
-        padding: 3vh 3vw; /* Ajustar el padding usando unidades relativas */
-        /* Otros estilos */
+        padding: 3vh 3vw;
 
         h6 {
             color: white;
@@ -432,20 +428,21 @@ header {
 
 }
 
+//-----------------PACK-TITULO-Y-PARRAFO-DE-CARRERA-INTENSIVA--------------------
 .packInicialTitulo {
     display: flex;
     font-family: Arial, Helvetica, sans-serif;
-    margin: 3vh 3vw; /* Ajustar el margen usando unidades relativas */
-    padding: 2vh 2vw; /* Ajustar el padding usando unidades relativas */
+    margin: 3vh 3vw;
+    padding: 2vh 2vw;
 
     h1 {
         color: white;
         text-align: start;
-        margin: 0 5vw 3vh 0; /* Ajustar el margen usando unidades relativas */
-        font-size: 4rem; /* Ajustar el tamaño del h1 */
+        margin: 0 5vw 3vh 0;
+        font-size: 4rem;
         font-weight: bolder;
-        width: 70%; /* Modificar el ancho relativo */
-        margin-right: 10vw; /* Ajustar el margen derecho */
+        width: 70%;
+        margin-right: 10vw;
     }
 
     .parte1 {
@@ -453,9 +450,9 @@ header {
 
         ul {
             li {
-                font-size: 1.5rem; /* Ajustar el tamaño del texto */
-                margin-top: 2vh; /* Modificar el margen superior */
-                padding-bottom: 5vh; /* Modificar el padding inferior */
+                font-size: 1.5rem;
+                margin-top: 2vh;
+                padding-bottom: 5vh;
             }
         }
 
@@ -477,8 +474,8 @@ header {
             align-items: center;
 
             img {
-                width: 10vw; /* Ancho relativo */
-                padding-right: 1.5vw; /* Unidades relativas */
+                width: 10vw;
+                padding-right: 1.5vw;
             }
         }
     }
@@ -487,21 +484,21 @@ header {
         transform: translateX(-7vw) translateY(6vh);
 
         img {
-            width: 35vw; /* Ancho relativo */
+            width: 35vw;
         }
 
         .cartaG {
-            width: 45vw; /* Ancho relativo */
+            width: 45vw;
             display: flex;
             background-color: #242424;
-            margin-top: 5vh; /* Unidades relativas */
-            padding: 2.5vh; /* Unidades relativas */
+            margin-top: 5vh;
+            padding: 2.5vh;
 
             .imgYl {
-                
+
                 img {
-                    width: 10vw; /* Ancho relativo */
-                    padding-bottom: 2.5vh; /* Unidades relativas */
+                    width: 10vw;
+                    padding-bottom: 2.5vh;
                 }
 
                 text-align: center;
@@ -527,8 +524,9 @@ header {
 
 }
 
+//-----------------DIV-IMPULSA-TU-CARRERA-DE-CARRERAS-INTENSIVAS--------------------
 .impulso {
-    padding: 10vh; /* Ajustar el padding usando unidades relativas */
+    padding: 10vh;
     display: flex;
     justify-content: center;
 
@@ -550,7 +548,7 @@ header {
         transform: translateY(-2.5vh);
 
         img {
-            width: 25vw; /* Cambiar a unidades relativas */
+            width: 25vw;
             transform: translateX(3.5vw) translateY(3vh);
         }
 
@@ -558,9 +556,9 @@ header {
             font-family: Arial, Helvetica, sans-serif;
             background-color: #242424;
             color: #CCCCCC;
-            padding: 5vh 2.5vw 2.5vh 2.5vw; /* Utilizando unidades relativas */
+            padding: 5vh 2.5vw 2.5vh 2.5vw;
             border-radius: 3vh;
-            width: 35vw; /* Cambiar a unidades relativas */
+            width: 35vw;
 
             .terminos {
                 font-weight: bold;
@@ -570,14 +568,14 @@ header {
     }
 
     .botonesInfo {
-        padding-top: 5vh; /* Utilizando unidades relativas */
+        padding-top: 5vh;
         display: flex;
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.3rem;
 
         button {
 
-            padding: 2.5vh 3.5vw 2.5vh 3.5vw; /* Utilizando unidades relativas */
+            padding: 2.5vh 3.5vw 2.5vh 3.5vw;
             border-radius: 6px;
 
             p {
@@ -587,9 +585,9 @@ header {
         }
 
         .boto2 {
-            margin-left: 3.5vw; /* Cambiar a unidades relativas */
+            margin-left: 3.5vw;
             background-color: #1A1A1A;
-            border: 0.1vw solid #393B43; /* Cambiar a unidades relativas */
+            border: 0.1vw solid #393B43;
 
             p {
                 color: yellow;
@@ -602,7 +600,3 @@ header {
     }
 
 }
-
-
-
-

@@ -1,7 +1,6 @@
 .h2Info {
     color: #BFBFBF;
     font-family: Arial, Helvetica, sans-serif;
-    //border-top: 1px solid #2E2F36;
     padding-top: 70px;
 
     h2 {
@@ -125,16 +124,16 @@
     border-top: 1px solid #333333;
     color: #BFBFBF;
     font-family: Arial, Helvetica, sans-serif;
-    padding-top: 10vw; /* Usar unidades relativas */
-    padding-left: 5vw; /* Usar unidades relativas */
-    width: 90vw; /* Usar unidades relativas */
-    margin: 0 auto; /* Centrar horizontalmente */
-    transform: translateX(2vw); /* Usar unidades relativas */
+    padding-top: 10vw; 
+    padding-left: 5vw; 
+    width: 90vw; 
+    margin: 0 auto; 
+    transform: translateX(2vw); 
 
     h2 {
         font-size: 3.5rem;
         font-weight: bold;
-        padding-bottom: 3vw; /* Usar unidades relativas */
+        padding-bottom: 3vw; 
     }
 
     .listaD {
@@ -149,12 +148,12 @@
                     text-decoration: none;
                     color: #BFBFBF;
                 }
-                font-size: 2vw; /* Usar unidades relativas */
-                padding: 2vw 5vw 2vw 1vw; /* Usar unidades relativas */
+                font-size: 2vw; 
+                padding: 2vw 5vw 2vw 1vw; 
                 border-bottom: 1px solid #2E2F36;
 
                 p {
-                    font-size: 1.2vw; /* Usar unidades relativas */
+                    font-size: 1.2vw; 
                     color: #989898;
                     display: none;
                     
@@ -167,10 +166,10 @@
         }
 
         .programas {
-            margin-top: 2vw; /* Usar unidades relativas */
+            margin-top: 2vw; 
             display: flex;
             flex-direction: column;
-            margin-left: 2vw; /* Usar unidades relativas */
+            margin-left: 2vw; 
 
 
             .semana1 {
@@ -180,18 +179,17 @@
                 background-color: #262626;
 
                 img {
-                    width: 10vw; /* Usar unidades relativas */
-                    height: 10vw; /* Usar unidades relativas */
+                    width: 7vw; 
+                    height: 5vw; 
                     border-right: 1px solid #1A1A1A;
-                    padding: 1vw; /* Usar unidades relativas */
+                    padding: 1vw; 
                 }
 
                 .duracion {
-
                     border-radius: 5px;
-                    padding: 2vw; /* Usar unidades relativas */
+                    padding: 2vw; 
                     color: #FFFFFF;
-                    font-size: 1.2vw; /* Usar unidades relativas */
+                    font-size: 1.2vw; 
 
                     p {}
 
@@ -200,8 +198,8 @@
                             text-decoration: none;
                             color: #D1E500;
                             img{
-                                width: 5vw; /* Usar unidades relativas */
-                                margin-left: 1vw; /* Usar unidades relativas */
+                                width: 5vw; 
+                                margin-left: 1vw; 
                             }
                         }
                     }
@@ -211,32 +209,31 @@
 
             .semana2 {
                 border-radius: 5px;
-                margin-top: 2vw; /* Usar unidades relativas */
+                margin-top: 2vw; 
                 display: flex;
                 align-items: center;
                 background-color: #262626;
 
                 img {
-                    width: 10vw; /* Usar unidades relativas */
-                    height: 10vw; /* Usar unidades relativas */
+                    width: 6vw; 
+                    height: 6vw; 
                     border-right: 1px solid #1A1A1A;
-                    padding: 1vw; /* Usar unidades relativas */
+                    padding: 1vw; 
                 }
 
                 .duracion {
-
                     border-radius: 5px;
-                    padding: 2vw; /* Usar unidades relativas */
+                    padding: 2vw; 
                     color: #FFFFFF;
-                    font-size: 1.2vw; /* Usar unidades relativas */
+                    font-size: 1.2vw; 
 
                     .programaImg {
                         a {
                             text-decoration: none;
                             color: #D1E500;
                             img{
-                                width: 5vw; /* Usar unidades relativas */
-                                margin-left: 1vw; /* Usar unidades relativas */
+                                width: 5vw; 
+                                margin-left: 1vw; 
                             }
                         }
                     }
@@ -245,33 +242,32 @@
             }
             .semana3 {
                 border-radius: 5px;
-                margin-top: 2vw; /* Usar unidades relativas */
+                margin-top: 2vw; 
                 display: flex;
                 background-color: #262626;
-                padding: 10px;
-                align-items: center;
+                padding: 10px 10px 0px 10px;
+                
 
                 img {
-                    width: 10vw; /* Usar unidades relativas */
-                    height: 10vw; /* Usar unidades relativas */
+                    width: 5vw; 
+                    height: 5vw; 
                     border-right: 1px solid #1A1A1A;
-                    padding: 1vw; /* Usar unidades relativas */
+                    padding: 1vw; 
                 }
 
                 .duracion {
-
                     border-radius: 5px;
-                    padding: 2vw; /* Usar unidades relativas */
+                    padding: 2vw; 
                     color: #FFFFFF;
-                    font-size: 1.2vw; /* Usar unidades relativas */
+                    font-size: 1.2vw; 
 
                     .programaImg {
                         a {
                             text-decoration: none;
                             color: #D1E500;
                             img{
-                                width: 5vw; /* Usar unidades relativas */
-                                margin-left: 1vw; /* Usar unidades relativas */
+                                width: 5vw; 
+                                margin-left: 1vw; 
                             }
                         }
                     }
